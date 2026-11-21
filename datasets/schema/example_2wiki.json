@@ -1,0 +1,169 @@
+{
+  "schema_version": "3.0",
+  "dataset_manifest": {
+    "dataset_name": "2WikiMultiHopQA",
+    "dataset_release": "20210407",
+    "split": "dev",
+    "source_file": "datasets/2wiki/dev.json",
+    "file_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "adapter_version": "2wiki-adapter-v3.0-example",
+    "schema_version": "3.0"
+  },
+  "semantic_screening": {
+    "screening_method": "adapter_plus_llm_semantic_screening",
+    "screening_model": "example-screening-model",
+    "screening_prompt_version": "screening-v1",
+    "screened_at": "2026-09-16T10:00:00+08:00",
+    "requires_human_audit": true
+  },
+  "sample": {
+    "dataset": "2WikiMultiHopQA",
+    "dataset_release": "20210407",
+    "split": "dev",
+    "sample_id": "2wiki_example_001",
+    "question": "Which country is the birthplace of the author of The Example Book located in?",
+    "answer": "Exampleland",
+    "answer_aliases": [],
+    "question_type": "compositional",
+    "answerability": 1,
+    "normalization_status": "normalized",
+    "exclusion_reason": null
+  },
+  "documents": [
+    {
+      "context_id": "ctx_0",
+      "title": "The Example Book",
+      "text": "The Example Book was written by Alice Writer. It was published in 1999.",
+      "sentences": [
+        {
+          "sent_id": 0,
+          "text": "The Example Book was written by Alice Writer.",
+          "raw_locator": { "context_index": 0, "sentence_index": 0 }
+        },
+        {
+          "sent_id": 1,
+          "text": "It was published in 1999.",
+          "raw_locator": { "context_index": 0, "sentence_index": 1 }
+        }
+      ],
+      "is_supporting_context": true,
+      "raw_locator": { "context_index": 0, "original_title": "The Example Book" }
+    },
+    {
+      "context_id": "ctx_1",
+      "title": "Alice Writer",
+      "text": "Alice Writer was born in Example City. Example City is in Exampleland.",
+      "sentences": [
+        {
+          "sent_id": 0,
+          "text": "Alice Writer was born in Example City.",
+          "raw_locator": { "context_index": 1, "sentence_index": 0 }
+        },
+        {
+          "sent_id": 1,
+          "text": "Example City is in Exampleland.",
+          "raw_locator": { "context_index": 1, "sentence_index": 1 }
+        }
+      ],
+      "is_supporting_context": true,
+      "raw_locator": { "context_index": 1, "original_title": "Alice Writer" }
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_0",
+      "claim_text": "The Example Book was written by Alice Writer.",
+      "claim_kind": "direct",
+      "structured_form": { "subject": "The Example Book", "relation": "author", "object": "Alice Writer" },
+      "annotation_status": "silver"
+    },
+    {
+      "claim_id": "claim_1",
+      "claim_text": "Alice Writer's birthplace is in Exampleland.",
+      "claim_kind": "derived",
+      "structured_form": null,
+      "annotation_status": "silver"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_0",
+      "context_id": "ctx_0",
+      "title": "The Example Book",
+      "paragraph_idx": null,
+      "sent_id": 0,
+      "char_start": null,
+      "char_end": null,
+      "text": "The Example Book was written by Alice Writer.",
+      "granularity": "sentence",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "supporting_fact_title": "The Example Book", "supporting_fact_sent_id": 0 }
+    },
+    {
+      "source_id": "source_1",
+      "context_id": "ctx_1",
+      "title": "Alice Writer",
+      "paragraph_idx": null,
+      "sent_id": 0,
+      "char_start": null,
+      "char_end": null,
+      "text": "Alice Writer was born in Example City.",
+      "granularity": "sentence",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "supporting_fact_title": "Alice Writer", "supporting_fact_sent_id": 0 }
+    },
+    {
+      "source_id": "source_2",
+      "context_id": "ctx_1",
+      "title": "Alice Writer",
+      "paragraph_idx": null,
+      "sent_id": 1,
+      "char_start": null,
+      "char_end": null,
+      "text": "Example City is in Exampleland.",
+      "granularity": "sentence",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "supporting_fact_title": "Alice Writer", "supporting_fact_sent_id": 1 }
+    }
+  ],
+  "claim_source_links": [
+    {
+      "claim_id": "claim_0",
+      "source_ids": ["source_0"],
+      "relation": "entails",
+      "validation_status": "accepted",
+      "entailment_notes": null,
+      "needs_review": false,
+      "reviewer": null,
+      "review_timestamp": null
+    },
+    {
+      "claim_id": "claim_1",
+      "source_ids": ["source_1", "source_2"],
+      "relation": "joint_entailment",
+      "validation_status": "accepted",
+      "entailment_notes": "The two sentences jointly locate the birthplace in Exampleland.",
+      "needs_review": false,
+      "reviewer": null,
+      "review_timestamp": null
+    }
+  ],
+  "reasoning_graph": {
+    "graph_type": "compositional",
+    "hop_count": 2,
+    "root_claim_ids": ["claim_1"],
+    "edges": [
+      { "from_claim_id": "claim_0", "to_claim_id": "claim_1", "edge_type": "requires" }
+    ]
+  },
+  "validation": {
+    "status": "qualified",
+    "errors": [],
+    "warnings": [],
+    "validator_version": "data-truth-relational-v3.0-example",
+    "validated_at": "2026-09-16T10:05:00+08:00"
+  }
+}

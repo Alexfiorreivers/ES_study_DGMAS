@@ -1,0 +1,41 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+~$*
+*.egg-info/
+.test_tmp/
+.mplconfig/
+
+# New local executions belong outside the frozen paper evidence.
+platform/outputs/
+platform/runs/
+platform/.cache/
+
+# Optional local chart exports are never distribution inputs.
+paper_figures/generated/
+
+# Excluded authoring artifacts must not return to the technical history.
+/manuscript/
+/manuscript_supplement/
+/paper_figures/*.png
+/paper_figures/*.pdf
+/paper_figures/*.svg
+/paper_figures/*.tiff
+/paper_figures/*.jpg
+
+# Full-text evidence is preserved outside the public candidate after rights review.
+/datasets/final/
+/results/original_records/
+/results/original_qwen_chain/
+/results/verification_additions/
+/editorial_only/
+/private_evidence/
+*.bundle

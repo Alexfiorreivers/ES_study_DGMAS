@@ -1,0 +1,61 @@
+{
+  "release": "2026-11-21",
+  "authoritative_inputs": "Table_2.csv through Table_6.csv; long-form mirror is validated, not independently edited",
+  "uncertainty": "No intervals supplied for revised point values",
+  "document_dependency": false,
+  "generated_outputs": "Optional local exports; excluded from distribution",
+  "files": [
+    {
+      "path": "paper_figures/source_data/audit_coverage.csv",
+      "sha256": "ab3f778ab700b38cfd076a95b3dabb2b25038c082bd4ab44349915aa083f2ba2"
+    },
+    {
+      "path": "paper_figures/source_data/edge_comparison.csv",
+      "sha256": "f03fecf275e7ef3f1a55f5376615b3ff4d31212dd91205ec5e70427e4ea41cd1"
+    },
+    {
+      "path": "paper_figures/source_data/figure_source_data.csv",
+      "sha256": "0f275c8d9c37f4ee927b8c5f91b3c906b659f849868d51da4ee2049f55767511"
+    },
+    {
+      "path": "paper_figures/source_data/Table_2.csv",
+      "sha256": "aa6ccfe3bd67d5abd18b300497c9ba393d04a6f29a85f131a1da34159f437516"
+    },
+    {
+      "path": "paper_figures/source_data/Table_3.csv",
+      "sha256": "f1e89c43064a4cf2f722798a82917701ae6760c388c4d5f528898606ab6c0b64"
+    },
+    {
+      "path": "paper_figures/source_data/Table_4.csv",
+      "sha256": "6815735bb515eb50089c63c0360e2900d35804d7cea2f302b8581bc283e246ad"
+    },
+    {
+      "path": "paper_figures/source_data/Table_5.csv",
+      "sha256": "8d4dc42e15d5739aeee6647b28c42152b29a0d2112f198fad09f208de27d3bf8"
+    },
+    {
+      "path": "paper_figures/source_data/Table_6.csv",
+      "sha256": "27672b0006c0abc2f071642512b265e966abd539936e645186bdd4c5cf140939"
+    },
+    {
+      "path": "paper_figures/build_figures.py",
+      "sha256": "adab33fbabb14b639711e1f685dcbe2048ae9a291056afd89f2b24b2077d70a9"
+    },
+    {
+      "path": "paper_figures/requirements.txt",
+      "sha256": "791463bc0975bb271648b0ebc4848e88a2f70ea4e24c94d31322bf3b77103e95"
+    },
+    {
+      "path": "results/current_release/value_changes.csv",
+      "sha256": "6c73dabd3510568cd32fbeb09c6a83a592fb8ef0457831b8255639fcf9b430ea"
+    },
+    {
+      "path": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/condition_and_stratum_tables.csv",
+      "sha256": "a8a7da02d1da7f8dd6c210299997f02c6c223fe36697a28688dd5f7feb6b6d67"
+    },
+    {
+      "path": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/condition_question_macro.csv",
+      "sha256": "7bb3bcd7e6169addd4daa31869ae0a646f4959eb41cc1a3c20f33ddffa33c91e"
+    }
+  ]
+}

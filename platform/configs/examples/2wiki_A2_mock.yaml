@@ -1,0 +1,106 @@
+schema_version: '0.1'
+config_version: m3-a.1.0.0
+experiment_id: m3a-fake-2wiki-A2-e-ready
+dataset:
+  adapter: data_truth_v3
+  path: ../datasets/final/2wiki/2wiki_audit_gold.jsonl
+  schema_path: ../datasets/schema/data_truth_schema.json
+  expected_sha256: 7092d80012861b6a333ad78c54fc32fc3b5fa1ed96e5f71fd4bb5c7241dc2c84
+  sample_ids:
+  - 2WikiMultiHopQA:20210407:dev:5b120c68089711ebbd77ac1f6bf848b6
+  - 2WikiMultiHopQA:20210407:dev:c9ba19e708b311ebbd86ac1f6bf848b6
+  - 2WikiMultiHopQA:20210407:dev:de498b840bd911eba7f7acde48001122
+  - 2WikiMultiHopQA:20210407:dev:fc04494a0baf11ebab90acde48001122
+  repair_manifest_path: null
+  expected_repair_manifest_sha256: null
+gates:
+  gate_a:
+    kind: schema_and_relational_v3
+    require_normalized: true
+    require_qualified: true
+  gate_b:
+    kind: experiment_eligibility
+    policy_registry:
+      2WikiMultiHopQA:
+        compositional:
+          gold_partition_minimal_v2: 2.0.0
+        comparison:
+          gold_partition_minimal_v2: 2.0.0
+        inference:
+          gold_partition_minimal_v2: 2.0.0
+        bridge_comparison:
+          gold_partition_minimal_v2: 2.0.0
+document_assignment:
+  policy: gold_partition_minimal_v2
+  rule_version: 2.0.0
+  seed: 20260929
+  hop_count_basis: null
+  difficulty_basis: null
+  evidence_unit: null
+  graph_semantics: null
+  eligibility_constraints: null
+  include_distractors: null
+  record_unused_context_refs: null
+  empty_assignment: null
+  mappings: null
+agents:
+- agent_id: agent_1
+  role: evidence_analyst
+  prompt_profile: m3-registry
+- agent_id: agent_2
+  role: evidence_analyst
+  prompt_profile: m3-registry
+- agent_id: agent_3
+  role: evidence_analyst
+  prompt_profile: m3-registry
+topology:
+  kind: chain
+  center_agent_id: agent_2
+protocol:
+  profile: evaluation_ready_v1
+  initial_read_round: 0
+  communication_rounds: 1
+  frozen_mailbox: true
+  raw_documents_after_initial_read: false
+  message_format: structured
+provider:
+  kind: lineage_replay_mock
+  version: 1.0.0
+generation:
+  thinking: null
+  response_format: json_object
+  temperature: 0.0
+  max_output_tokens: 1024
+  prompt_requires_json_instruction: true
+execution:
+  checkpoint_granularity: question
+  resume_policy: skip_completed
+  max_attempts_per_request: 1
+  max_total_model_attempts: 20
+  retry:
+    initial_backoff_seconds: 0.0
+    max_backoff_seconds: 0.0
+    honor_retry_after: true
+    retryable_error_codes: []
+  continue_after_question_failure: true
+  persist_after_each_question: true
+aggregation:
+  kind: union
+  version: terminal-offline-union@1.0.0
+randomness:
+  seed: 20260929
+  replicate_id: m3a-acceptance-fake-2wiki-r1
+output:
+  runs_dir: outputs/smoke
+m3_condition:
+  condition_id: A2
+  model_id: lineage-replay-mock@1.0.0
+  dataset_id: 2wiki-audit-gold-400@english-localized:sha256:7092d80012861b6a333ad78c54fc32fc3b5fa1ed96e5f71fd4bb5c7241dc2c84
+  replicate_id: m3a-acceptance-fake-2wiki-r1
+  prompt_ref: m3-A2@1.0.4
+  prompt_registry:
+    path: configs/prompt_registry/m3_prompt_registry_1.0.4.yaml
+    expected_sha256: 7b8ab0772a8d0b3e405749c9f248c1f8f2ac50f3ead915660f06abe8ca48ef97
+  terminal_union_ref: terminal-offline-union@1.0.0
+  parent_projection_ref: identity@1.0.0
+  run_intent: development

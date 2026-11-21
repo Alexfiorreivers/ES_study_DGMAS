@@ -1,0 +1,391 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.research/schema/data-truth-v3.0.json",
+  "title": "Data Truth Schema 3.0 for 2Wiki and MuSiQue Experiment Inputs",
+  "description": "Frozen experiment-input schema for 2WikiMultiHopQA and MuSiQue final silver or gold-audit records. Cross-array and graph invariants are enforced by the relational validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_manifest",
+    "semantic_screening",
+    "sample",
+    "documents",
+    "claims",
+    "sources",
+    "claim_source_links",
+    "reasoning_graph",
+    "validation"
+  ],
+  "properties": {
+    "schema_version": { "const": "3.0" },
+    "dataset_manifest": { "$ref": "#/$defs/datasetManifest" },
+    "semantic_screening": { "$ref": "#/$defs/semanticScreening" },
+    "sample": { "$ref": "#/$defs/sample" },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/document" }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/claim" }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "claim_source_links": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/claimSourceLink" }
+    },
+    "reasoning_graph": { "$ref": "#/$defs/reasoningGraph" },
+    "validation": { "$ref": "#/$defs/validation" }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "dataset_manifest": {
+            "properties": { "dataset_name": { "const": "2WikiMultiHopQA" } }
+          }
+        }
+      },
+      "then": { "$ref": "#/$defs/profile2Wiki" },
+      "else": { "$ref": "#/$defs/profileMuSiQue" }
+    }
+  ],
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nullableNonEmptyString": {
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "rawLocator": {
+      "type": "object",
+      "description": "Dataset-native provenance retained without platform interpretation.",
+      "additionalProperties": true
+    },
+    "datasetManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dataset_name",
+        "dataset_release",
+        "split",
+        "source_file",
+        "file_sha256",
+        "adapter_version",
+        "schema_version"
+      ],
+      "properties": {
+        "dataset_name": {
+          "enum": ["2WikiMultiHopQA", "MuSiQue"]
+        },
+        "dataset_release": { "$ref": "#/$defs/nonEmptyString" },
+        "split": { "$ref": "#/$defs/nonEmptyString" },
+        "source_file": {
+          "$ref": "#/$defs/nonEmptyString",
+          "description": "Portable logical path or source locator; it is not the immutable identity. file_sha256 is authoritative."
+        },
+        "file_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "adapter_version": { "$ref": "#/$defs/nonEmptyString" },
+        "schema_version": { "const": "3.0" }
+      }
+    },
+    "semanticScreening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "screening_method",
+        "screening_model",
+        "screening_prompt_version",
+        "screened_at",
+        "requires_human_audit"
+      ],
+      "properties": {
+        "screening_method": { "$ref": "#/$defs/nonEmptyString" },
+        "screening_model": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "screening_prompt_version": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "screened_at": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "requires_human_audit": { "type": "boolean" }
+      }
+    },
+    "sample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dataset",
+        "dataset_release",
+        "split",
+        "sample_id",
+        "question",
+        "answer",
+        "answer_aliases",
+        "question_type",
+        "answerability",
+        "normalization_status",
+        "exclusion_reason"
+      ],
+      "properties": {
+        "dataset": { "enum": ["2WikiMultiHopQA", "MuSiQue"] },
+        "dataset_release": { "$ref": "#/$defs/nonEmptyString" },
+        "split": { "$ref": "#/$defs/nonEmptyString" },
+        "sample_id": { "$ref": "#/$defs/nonEmptyString" },
+        "question": { "$ref": "#/$defs/nonEmptyString" },
+        "answer": {
+          "description": "Dataset answer value, preserved without forcing one scalar representation.",
+          "type": ["string", "number", "integer", "boolean", "array", "object"]
+        },
+        "answer_aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "question_type": { "$ref": "#/$defs/nonEmptyString" },
+        "answerability": { "const": 1 },
+        "normalization_status": { "const": "normalized" },
+        "exclusion_reason": { "type": "null" }
+      }
+    },
+    "sentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sent_id", "text", "raw_locator"],
+      "properties": {
+        "sent_id": { "type": "integer", "minimum": 0 },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "raw_locator": { "$ref": "#/$defs/rawLocator" }
+      }
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context_id",
+        "title",
+        "text",
+        "sentences",
+        "is_supporting_context",
+        "raw_locator"
+      ],
+      "properties": {
+        "context_id": { "$ref": "#/$defs/nonEmptyString" },
+        "title": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "sentences": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/sentence" }
+        },
+        "is_supporting_context": { "type": "boolean" },
+        "raw_locator": { "$ref": "#/$defs/rawLocator" }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "claim_text",
+        "claim_kind",
+        "structured_form",
+        "annotation_status"
+      ],
+      "properties": {
+        "claim_id": { "$ref": "#/$defs/nonEmptyString" },
+        "claim_text": { "$ref": "#/$defs/nonEmptyString" },
+        "claim_kind": {
+          "enum": ["direct", "derived"],
+          "description": "Relational meaning: direct iff the claim's unique accepted link contains exactly one source_id; derived iff it contains two or more source_ids."
+        },
+        "structured_form": {
+          "type": ["object", "null"],
+          "additionalProperties": true
+        },
+        "annotation_status": {
+          "enum": ["silver", "gold_audit"]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "context_id",
+        "title",
+        "paragraph_idx",
+        "sent_id",
+        "char_start",
+        "char_end",
+        "text",
+        "granularity",
+        "source_origin",
+        "locator_status",
+        "raw_locator"
+      ],
+      "properties": {
+        "source_id": { "$ref": "#/$defs/nonEmptyString" },
+        "context_id": { "$ref": "#/$defs/nonEmptyString" },
+        "title": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "paragraph_idx": { "type": ["integer", "null"], "minimum": 0 },
+        "sent_id": { "type": ["integer", "null"], "minimum": 0 },
+        "char_start": { "type": ["integer", "null"], "minimum": 0 },
+        "char_end": { "type": ["integer", "null"], "minimum": 0 },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "granularity": { "enum": ["sentence", "paragraph"] },
+        "source_origin": { "const": "official_gold" },
+        "locator_status": { "const": "valid" },
+        "raw_locator": { "$ref": "#/$defs/rawLocator" }
+      }
+    },
+    "claimSourceLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "source_ids",
+        "relation",
+        "validation_status",
+        "entailment_notes",
+        "needs_review",
+        "reviewer",
+        "review_timestamp"
+      ],
+      "properties": {
+        "claim_id": { "$ref": "#/$defs/nonEmptyString" },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "relation": {
+          "enum": ["entails", "joint_entailment", "supports"]
+        },
+        "validation_status": { "const": "accepted" },
+        "entailment_notes": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "needs_review": { "type": "boolean" },
+        "reviewer": { "$ref": "#/$defs/nullableNonEmptyString" },
+        "review_timestamp": { "$ref": "#/$defs/nullableNonEmptyString" }
+      }
+    },
+    "reasoningEdge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from_claim_id", "to_claim_id", "edge_type"],
+      "properties": {
+        "from_claim_id": { "$ref": "#/$defs/nonEmptyString" },
+        "to_claim_id": { "$ref": "#/$defs/nonEmptyString" },
+        "edge_type": {
+          "enum": ["supports", "requires", "comparison", "inference"]
+        }
+      }
+    },
+    "reasoningGraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["graph_type", "hop_count", "root_claim_ids", "edges"],
+      "properties": {
+        "graph_type": { "$ref": "#/$defs/nonEmptyString" },
+        "hop_count": { "type": "integer", "minimum": 1 },
+        "root_claim_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "edges": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/reasoningEdge" }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "errors", "warnings", "validator_version", "validated_at"],
+      "properties": {
+        "status": { "const": "qualified" },
+        "errors": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "validator_version": { "$ref": "#/$defs/nonEmptyString" },
+        "validated_at": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "profile2Wiki": {
+      "type": "object",
+      "properties": {
+        "sample": {
+          "properties": {
+            "dataset": { "const": "2WikiMultiHopQA" },
+            "question_type": {
+              "enum": ["compositional", "comparison", "inference", "bridge_comparison"]
+            }
+          }
+        },
+        "documents": {
+          "items": {
+            "properties": {
+              "sentences": { "minItems": 1 }
+            }
+          }
+        },
+        "sources": {
+          "items": {
+            "properties": {
+              "paragraph_idx": { "type": "null" },
+              "sent_id": { "type": "integer", "minimum": 0 },
+              "char_start": { "type": "null" },
+              "char_end": { "type": "null" },
+              "granularity": { "const": "sentence" }
+            }
+          }
+        }
+      }
+    },
+    "profileMuSiQue": {
+      "type": "object",
+      "properties": {
+        "sample": {
+          "properties": {
+            "dataset": { "const": "MuSiQue" },
+            "question_type": { "enum": ["2hop", "3hop", "4hop"] }
+          }
+        },
+        "sources": {
+          "items": {
+            "required": ["paragraph_idx"],
+            "properties": {
+              "paragraph_idx": { "type": "integer", "minimum": 0 },
+              "char_start": { "type": "null" },
+              "char_end": { "type": "null" }
+            },
+            "allOf": [
+              {
+                "if": { "properties": { "granularity": { "const": "paragraph" } } },
+                "then": { "properties": { "sent_id": { "type": "null" } } },
+                "else": { "properties": { "sent_id": { "type": "integer", "minimum": 0 } } }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "3.0",
+  "dataset_manifest": {
+    "dataset_name": "MuSiQue",
+    "dataset_release": "v1.0",
+    "split": "dev",
+    "source_file": "datasets/musique/musique_ans_v1.0_dev_gold_audit.jsonl",
+    "file_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "adapter_version": "musique-adapter-v3.0-example",
+    "schema_version": "3.0"
+  },
+  "semantic_screening": {
+    "screening_method": "adapter_plus_llm_semantic_screening_then_human_audit",
+    "screening_model": "example-screening-model",
+    "screening_prompt_version": "screening-v1",
+    "screened_at": "2026-09-16T12:00:00+08:00",
+    "requires_human_audit": false
+  },
+  "sample": {
+    "dataset": "MuSiQue",
+    "dataset_release": "v1.0",
+    "split": "dev",
+    "sample_id": "musique_example_sentence_001",
+    "question": "What language is spoken in the country where Riverford is located?",
+    "answer": "Examplean",
+    "answer_aliases": [],
+    "question_type": "2hop",
+    "answerability": 1,
+    "normalization_status": "normalized",
+    "exclusion_reason": null
+  },
+  "documents": [
+    {
+      "context_id": "ctx_0",
+      "title": "Riverford",
+      "text": "Riverford is a small city. It is located in Examplestan. The city is known for its bridges.",
+      "sentences": [
+        {
+          "sent_id": 1,
+          "text": "It is located in Examplestan.",
+          "raw_locator": { "paragraph_index": 0, "sentence_index": 1, "annotation": "human_highlight" }
+        }
+      ],
+      "is_supporting_context": true,
+      "raw_locator": { "paragraph_index": 0, "is_supporting": true }
+    },
+    {
+      "context_id": "ctx_1",
+      "title": "Examplestan",
+      "text": "Examplestan is a fictional country. Its principal language is Examplean.",
+      "sentences": [
+        {
+          "sent_id": 1,
+          "text": "Its principal language is Examplean.",
+          "raw_locator": { "paragraph_index": 1, "sentence_index": 1, "annotation": "human_highlight" }
+        }
+      ],
+      "is_supporting_context": true,
+      "raw_locator": { "paragraph_index": 1, "is_supporting": true }
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_0",
+      "claim_text": "Riverford is located in Examplestan.",
+      "claim_kind": "direct",
+      "structured_form": { "subject": "Riverford", "relation": "located_in", "object": "Examplestan" },
+      "annotation_status": "gold_audit"
+    },
+    {
+      "claim_id": "claim_1",
+      "claim_text": "The country containing Riverford has Examplean as its principal language.",
+      "claim_kind": "derived",
+      "structured_form": null,
+      "annotation_status": "gold_audit"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_0",
+      "context_id": "ctx_0",
+      "title": "Riverford",
+      "paragraph_idx": 0,
+      "sent_id": 1,
+      "char_start": null,
+      "char_end": null,
+      "text": "It is located in Examplestan.",
+      "granularity": "sentence",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "paragraph_index": 0, "sentence_index": 1, "annotation": "human_highlight" }
+    },
+    {
+      "source_id": "source_1",
+      "context_id": "ctx_1",
+      "title": "Examplestan",
+      "paragraph_idx": 1,
+      "sent_id": 1,
+      "char_start": null,
+      "char_end": null,
+      "text": "Its principal language is Examplean.",
+      "granularity": "sentence",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "paragraph_index": 1, "sentence_index": 1, "annotation": "human_highlight" }
+    }
+  ],
+  "claim_source_links": [
+    {
+      "claim_id": "claim_0",
+      "source_ids": ["source_0"],
+      "relation": "entails",
+      "validation_status": "accepted",
+      "entailment_notes": "Human-reviewed sentence evidence.",
+      "needs_review": false,
+      "reviewer": "reviewer-example",
+      "review_timestamp": "2026-09-16T12:30:00+08:00"
+    },
+    {
+      "claim_id": "claim_1",
+      "source_ids": ["source_0", "source_1"],
+      "relation": "joint_entailment",
+      "validation_status": "accepted",
+      "entailment_notes": "The highlighted sentences jointly establish the answer.",
+      "needs_review": false,
+      "reviewer": "reviewer-example",
+      "review_timestamp": "2026-09-16T12:31:00+08:00"
+    }
+  ],
+  "reasoning_graph": {
+    "graph_type": "compositional",
+    "hop_count": 2,
+    "root_claim_ids": ["claim_1"],
+    "edges": [
+      { "from_claim_id": "claim_0", "to_claim_id": "claim_1", "edge_type": "requires" }
+    ]
+  },
+  "validation": {
+    "status": "qualified",
+    "errors": [],
+    "warnings": [],
+    "validator_version": "data-truth-relational-v3.0-example",
+    "validated_at": "2026-09-16T12:35:00+08:00"
+  }
+}

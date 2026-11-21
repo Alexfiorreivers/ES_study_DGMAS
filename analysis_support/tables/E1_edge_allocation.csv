@@ -1,0 +1,9 @@
+﻿stratum,population_n,sample_n,unreviewed_n,weight
+E0_both_empty|M,112,11,101,10.181818181818182
+E1_both_absent|A2,235,24,211,9.791666666666666
+E1_both_absent|M,1041,104,937,10.009615384615385
+E1_unique_retained_endpoint_pair|A2,90,9,81,10.0
+E1_unique_retained_endpoint_pair|M,382,38,344,10.052631578947368
+gpt_candidate_only|A2,6,1,5,6.0
+gpt_candidate_only|M,10,1,9,10.0
+rerouted_candidate_only|M,9,1,8,9.0

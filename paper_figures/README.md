@@ -1,0 +1,7 @@
+# CSV plotting tools
+
+Install requirements.txt and run `python paper_figures/build_figures.py` from any directory. Use `--output-dir PATH` to write outside the default ignored generated directory. Five four-metric charts are produced as PNG, PDF and SVG. No image is distributed and no document is read. A manually edited conceptual diagram is outside this numerical tool's scope.
+
+source_data/Table_2.csv through Table_6.csv are the authoritative released display inputs (percent units). Their stable identifiers select model/protocol, baseline, ablation and dataset comparisons. figure_source_data.csv is a checked long-form mirror, not an independent authority. edge_comparison.csv retains applicable-event numerators/denominators; audit_coverage.csv distinguishes the historical node frame from the terminal frame.
+
+Run `python paper_figures/validate_and_package.py` for read-only CSV and source checks. Despite the legacy filename it does not package files or require generated images. Current point values have no supplied uncertainty intervals; the generator adds none. Dependencies are declared in requirements.txt; no private package directory is needed. [Numeric revisions](../results/current_release/NUMERIC_REVISION_LOG.md) document the restoration to frozen aggregates. See [publication figure mapping](PUBLICATION_FIGURE_MAP.md): Figure 2 is the workflow and Figures 3–7 use source tables 2–6. Run `python paper_figures/build_workflow.py` for the workflow.

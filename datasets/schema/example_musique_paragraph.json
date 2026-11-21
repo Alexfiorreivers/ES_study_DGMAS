@@ -1,0 +1,133 @@
+{
+  "schema_version": "3.0",
+  "dataset_manifest": {
+    "dataset_name": "MuSiQue",
+    "dataset_release": "v1.0",
+    "split": "dev",
+    "source_file": "datasets/musique/musique_ans_v1.0_dev.jsonl",
+    "file_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "adapter_version": "musique-adapter-v3.0-example",
+    "schema_version": "3.0"
+  },
+  "semantic_screening": {
+    "screening_method": "adapter_plus_llm_semantic_screening",
+    "screening_model": "example-screening-model",
+    "screening_prompt_version": "screening-v1",
+    "screened_at": "2026-09-16T11:00:00+08:00",
+    "requires_human_audit": true
+  },
+  "sample": {
+    "dataset": "MuSiQue",
+    "dataset_release": "v1.0",
+    "split": "dev",
+    "sample_id": "musique_example_paragraph_001",
+    "question": "In which country was the founder of Example Press born?",
+    "answer": "Examplestan",
+    "answer_aliases": [],
+    "question_type": "2hop",
+    "answerability": 1,
+    "normalization_status": "normalized",
+    "exclusion_reason": null
+  },
+  "documents": [
+    {
+      "context_id": "ctx_0",
+      "title": "Example Press",
+      "text": "Example Press is an independent publisher founded by Morgan Lee in 1987.",
+      "sentences": [],
+      "is_supporting_context": true,
+      "raw_locator": { "paragraph_index": 0, "is_supporting": true }
+    },
+    {
+      "context_id": "ctx_1",
+      "title": "Morgan Lee",
+      "text": "Morgan Lee was born in Sampletown, Examplestan, and later became a publisher.",
+      "sentences": [],
+      "is_supporting_context": true,
+      "raw_locator": { "paragraph_index": 1, "is_supporting": true }
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_0",
+      "claim_text": "Morgan Lee founded Example Press.",
+      "claim_kind": "direct",
+      "structured_form": null,
+      "annotation_status": "silver"
+    },
+    {
+      "claim_id": "claim_1",
+      "claim_text": "The founder of Example Press was born in Examplestan.",
+      "claim_kind": "derived",
+      "structured_form": null,
+      "annotation_status": "silver"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_0",
+      "context_id": "ctx_0",
+      "title": "Example Press",
+      "paragraph_idx": 0,
+      "sent_id": null,
+      "char_start": null,
+      "char_end": null,
+      "text": "Example Press is an independent publisher founded by Morgan Lee in 1987.",
+      "granularity": "paragraph",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "paragraph_index": 0, "is_supporting": true }
+    },
+    {
+      "source_id": "source_1",
+      "context_id": "ctx_1",
+      "title": "Morgan Lee",
+      "paragraph_idx": 1,
+      "sent_id": null,
+      "char_start": null,
+      "char_end": null,
+      "text": "Morgan Lee was born in Sampletown, Examplestan, and later became a publisher.",
+      "granularity": "paragraph",
+      "source_origin": "official_gold",
+      "locator_status": "valid",
+      "raw_locator": { "paragraph_index": 1, "is_supporting": true }
+    }
+  ],
+  "claim_source_links": [
+    {
+      "claim_id": "claim_0",
+      "source_ids": ["source_0"],
+      "relation": "entails",
+      "validation_status": "accepted",
+      "entailment_notes": null,
+      "needs_review": false,
+      "reviewer": null,
+      "review_timestamp": null
+    },
+    {
+      "claim_id": "claim_1",
+      "source_ids": ["source_0", "source_1"],
+      "relation": "joint_entailment",
+      "validation_status": "accepted",
+      "entailment_notes": "One paragraph identifies the founder and the other gives the founder's birthplace country.",
+      "needs_review": false,
+      "reviewer": null,
+      "review_timestamp": null
+    }
+  ],
+  "reasoning_graph": {
+    "graph_type": "compositional",
+    "hop_count": 2,
+    "root_claim_ids": ["claim_1"],
+    "edges": [
+      { "from_claim_id": "claim_0", "to_claim_id": "claim_1", "edge_type": "requires" }
+    ]
+  },
+  "validation": {
+    "status": "qualified",
+    "errors": [],
+    "warnings": [],
+    "validator_version": "data-truth-relational-v3.0-example",
+    "validated_at": "2026-09-16T11:05:00+08:00"
+  }
+}

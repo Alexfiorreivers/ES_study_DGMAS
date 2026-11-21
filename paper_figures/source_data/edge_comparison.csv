@@ -1,0 +1,10 @@
+﻿model,metric,numerator,denominator,percent
+DeepSeek 1.0.4,EdgeClaimRetention,102.0,102.0,100.0
+DeepSeek 1.0.4,EdgeExactSourceRetention,102.0,102.0,100.0
+DeepSeek 1.0.4,EdgeValidSubstitution,0.0,0.0,
+DeepSeek earlier,EdgeClaimRetention,102.0,102.0,100.0
+DeepSeek earlier,EdgeExactSourceRetention,102.0,102.0,100.0
+DeepSeek earlier,EdgeValidSubstitution,0.0,0.0,
+Qwen3-8B,EdgeClaimRetention,47.0,54.0,87.03703703703704
+Qwen3-8B,EdgeExactSourceRetention,47.0,47.0,100.0
+Qwen3-8B,EdgeValidSubstitution,0.0,0.0,

@@ -1,0 +1,4 @@
+condition,metric,previous_percent,current_percent,basis
+A1,CSR,51.48,50.00,Author confirmation; frozen sample_replaced aggregate
+A2,CSR,49.79,50.00,Author confirmation; frozen sample_replaced aggregate
+A2,AA,49.31,50.00,Author confirmation; frozen sample_replaced aggregate

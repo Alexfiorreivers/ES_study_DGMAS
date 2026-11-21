@@ -1,0 +1,1106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.research/schema/hm-data-truth-v2.1.json",
+  "title": "HotpotQA-MuSiQue Dataset Truth Schema 2.1",
+  "description": "HM-only staged truth schema for HotpotQA and MuSiQue adapter candidates, GPT-screened records, and postprocessed silver records. Adapter sidecars and GPT judgments remain separate artifacts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "processing_stage",
+    "dataset_manifest",
+    "semantic_screening",
+    "sample",
+    "documents",
+    "claims",
+    "sources",
+    "claim_source_links",
+    "reasoning_graph",
+    "validation"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.1"
+    },
+    "processing_stage": {
+      "type": "string",
+      "enum": [
+        "adapter_candidate",
+        "gpt_screened",
+        "silver"
+      ],
+      "description": "Lifecycle stage. GPT completion updates adapter_candidate to gpt_screened in bulk; only the postprocessor may update gpt_screened to silver."
+    },
+    "dataset_manifest": {
+      "$ref": "#/$defs/datasetManifest"
+    },
+    "semantic_screening": {
+      "$ref": "#/$defs/semanticScreening"
+    },
+    "sample": {
+      "$ref": "#/$defs/sample"
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/document"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "claim_source_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claimSourceLink"
+      }
+    },
+    "reasoning_graph": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/reasoningGraph"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "validation": {
+      "$ref": "#/$defs/validation"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "processing_stage": {
+            "const": "adapter_candidate"
+          }
+        },
+        "required": [
+          "processing_stage"
+        ]
+      },
+      "then": {
+        "properties": {
+          "claims": {
+            "maxItems": 0
+          },
+          "claim_source_links": {
+            "maxItems": 0
+          },
+          "reasoning_graph": {
+            "type": "null"
+          },
+          "semantic_screening": {
+            "properties": {
+              "method": {
+                "type": "null"
+              },
+              "model": {
+                "type": "null"
+              },
+              "reasoning_effort": {
+                "type": "null"
+              },
+              "prompt_version": {
+                "type": "null"
+              },
+              "screened_at": {
+                "type": "null"
+              }
+            }
+          },
+          "validation": {
+            "properties": {
+              "status": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "processing_stage": {
+            "const": "gpt_screened"
+          }
+        },
+        "required": [
+          "processing_stage"
+        ]
+      },
+      "then": {
+        "properties": {
+          "claims": {
+            "maxItems": 0
+          },
+          "claim_source_links": {
+            "maxItems": 0
+          },
+          "reasoning_graph": {
+            "type": "null"
+          },
+          "semantic_screening": {
+            "properties": {
+              "method": {
+                "const": "gpt"
+              },
+              "model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reasoning_effort": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "screened_at": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "validation": {
+            "properties": {
+              "status": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "processing_stage": {
+            "const": "silver"
+          }
+        },
+        "required": [
+          "processing_stage"
+        ]
+      },
+      "then": {
+        "properties": {
+          "claims": {
+            "minItems": 1,
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/claim"
+                },
+                {
+                  "properties": {
+                    "annotation_status": {
+                      "const": "silver"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "claim_source_links": {
+            "minItems": 1,
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/claimSourceLink"
+                },
+                {
+                  "properties": {
+                    "validation_status": {
+                      "const": "accepted"
+                    },
+                    "if_minimum": {
+                      "const": true
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "reasoning_graph": {
+            "$ref": "#/$defs/reasoningGraph"
+          },
+          "semantic_screening": {
+            "properties": {
+              "method": {
+                "const": "gpt"
+              },
+              "model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reasoning_effort": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "screened_at": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "validation": {
+            "properties": {
+              "status": {
+                "const": "qualified"
+              },
+              "validated_at": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "dataset_manifest": {
+            "properties": {
+              "dataset_name": {
+                "const": "HotpotQA"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "dataset_manifest": {
+            "properties": {
+              "release": {
+                "const": "v1.1"
+              },
+              "split": {
+                "enum": [
+                  "train",
+                  "dev_distractor"
+                ]
+              }
+            }
+          },
+          "sample": {
+            "properties": {
+              "dataset_name": {
+                "const": "HotpotQA"
+              },
+              "release": {
+                "const": "v1.1"
+              },
+              "split": {
+                "enum": [
+                  "train",
+                  "dev_distractor"
+                ]
+              },
+              "question_type": {
+                "enum": [
+                  "bridge",
+                  "comparison"
+                ]
+              },
+              "question_level": {
+                "enum": [
+                  "easy",
+                  "medium",
+                  "hard"
+                ]
+              }
+            }
+          },
+          "claims": {
+            "items": {
+              "properties": {
+                "structured_form": {
+                  "type": "null"
+                },
+                "claim_kind": {
+                  "const": "derived"
+                }
+              }
+            }
+          },
+          "sources": {
+            "items": {
+              "properties": {
+                "paragraph_idx": {
+                  "type": "null"
+                },
+                "sent_id": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "char_start": {
+                  "type": "null"
+                },
+                "char_end": {
+                  "type": "null"
+                },
+                "granularity": {
+                  "const": "sentence"
+                },
+                "source_origin": {
+                  "const": "official_gold"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "dataset_manifest": {
+            "properties": {
+              "dataset_name": {
+                "const": "MuSiQue"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "dataset_manifest": {
+            "properties": {
+              "release": {
+                "const": "v1.0"
+              },
+              "split": {
+                "const": "dev"
+              }
+            }
+          },
+          "sample": {
+            "properties": {
+              "dataset_name": {
+                "const": "MuSiQue"
+              },
+              "release": {
+                "const": "v1.0"
+              },
+              "split": {
+                "const": "dev"
+              },
+              "question_type": {
+                "enum": [
+                  "2hop",
+                  "3hop",
+                  "4hop"
+                ]
+              },
+              "question_level": {
+                "type": "null"
+              }
+            }
+          },
+          "documents": {
+            "items": {
+              "properties": {
+                "sentences": {
+                  "maxItems": 0
+                }
+              }
+            }
+          },
+          "claims": {
+            "items": {
+              "properties": {
+                "structured_form": {
+                  "type": "null"
+                },
+                "claim_kind": {
+                  "const": "derived"
+                }
+              }
+            }
+          },
+          "sources": {
+            "items": {
+              "properties": {
+                "paragraph_idx": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "sent_id": {
+                  "type": "null"
+                },
+                "char_start": {
+                  "type": "null"
+                },
+                "char_end": {
+                  "type": "null"
+                },
+                "granularity": {
+                  "const": "paragraph"
+                },
+                "source_origin": {
+                  "const": "official_gold"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nullableInteger": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "rawLocator": {
+      "type": "object",
+      "description": "Dataset-native locator fields retained without destructive normalization.",
+      "additionalProperties": true
+    },
+    "datasetManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dataset_name",
+        "release",
+        "split",
+        "source_file",
+        "file_sha256",
+        "adapter_version",
+        "run_id",
+        "sidecar_version",
+        "schema_version"
+      ],
+      "properties": {
+        "dataset_name": {
+          "enum": [
+            "HotpotQA",
+            "MuSiQue"
+          ]
+        },
+        "release": {
+          "type": "string"
+        },
+        "split": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        },
+        "file_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{64}$"
+        },
+        "adapter_version": {
+          "type": "string"
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique identifier generated for every adapter execution. It must not be used in the deterministic sampling rank key."
+        },
+        "sidecar_version": {
+          "type": "string",
+          "const": "1.0.0"
+        },
+        "schema_version": {
+          "type": "string",
+          "const": "2.1"
+        }
+      }
+    },
+    "semanticScreening": {
+      "type": "object",
+      "description": "Top-level provenance for GPT semantic screening. GPT judgments remain in a separate result artifact.",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "model",
+        "reasoning_effort",
+        "prompt_version",
+        "rule_version",
+        "screened_at",
+        "requires_human_audit"
+      ],
+      "properties": {
+        "method": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "gpt",
+            null
+          ]
+        },
+        "model": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "reasoning_effort": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max",
+            "ultra",
+            null
+          ]
+        },
+        "prompt_version": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "rule_version": {
+          "type": "string"
+        },
+        "screened_at": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "requires_human_audit": {
+          "const": true
+        }
+      }
+    },
+    "sample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sample_id",
+        "original_sample_id",
+        "dataset_name",
+        "release",
+        "split",
+        "question",
+        "answer",
+        "question_type",
+        "question_level",
+        "answerability",
+        "raw_locator",
+        "normalization_status",
+        "exclusion_reason"
+      ],
+      "properties": {
+        "sample_id": {
+          "type": "string"
+        },
+        "original_sample_id": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "dataset_name": {
+          "enum": [
+            "HotpotQA",
+            "MuSiQue"
+          ]
+        },
+        "release": {
+          "type": "string"
+        },
+        "split": {
+          "type": "string"
+        },
+        "question": {
+          "type": "string"
+        },
+        "answer": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "null"
+          ]
+        },
+        "question_type": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "question_level": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "easy",
+            "medium",
+            "hard",
+            null
+          ],
+          "description": "HotpotQA official level; null for MuSiQue, which has no official difficulty level."
+        },
+        "answerability": {
+          "type": "integer",
+          "enum": [
+            0,
+            1
+          ]
+        },
+        "raw_locator": {
+          "$ref": "#/$defs/rawLocator"
+        },
+        "normalization_status": {
+          "enum": [
+            "normalized",
+            "excluded"
+          ]
+        },
+        "exclusion_reason": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "sample_id",
+        "claim_text",
+        "structured_form",
+        "claim_kind",
+        "parent_claim_ids",
+        "derivation_operator",
+        "derivation_rule_version",
+        "annotation_status"
+      ],
+      "properties": {
+        "claim_id": {
+          "type": "string"
+        },
+        "sample_id": {
+          "type": "string"
+        },
+        "claim_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "structured_form": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/structuredForm"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "claim_kind": {
+          "enum": [
+            "direct",
+            "derived"
+          ],
+          "description": "Claim provenance category. In HM v2.1 all HotpotQA and MuSiQue claims are derived; direct versus joint evidence support is represented by claim_source_links.relation."
+        },
+        "parent_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "derivation_operator": {
+          "type": "string"
+        },
+        "derivation_rule_version": {
+          "type": "string"
+        },
+        "annotation_status": {
+          "enum": [
+            "candidate",
+            "silver",
+            "gold_audit",
+            "rejected"
+          ]
+        }
+      }
+    },
+    "structuredForm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subject",
+        "predicate",
+        "object",
+        "subject_qid",
+        "object_qid"
+      ],
+      "properties": {
+        "subject": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "object": {
+          "type": "string"
+        },
+        "subject_qid": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "object_qid": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "documentSentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sentence_index",
+        "text"
+      ],
+      "properties": {
+        "sentence_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context_index",
+        "title",
+        "text",
+        "sentences",
+        "is_supporting_context",
+        "raw_locator"
+      ],
+      "properties": {
+        "context_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "title": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "text": {
+          "type": "string"
+        },
+        "sentences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/documentSentence"
+          }
+        },
+        "is_supporting_context": {
+          "type": "boolean"
+        },
+        "raw_locator": {
+          "$ref": "#/$defs/rawLocator"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "sample_id",
+        "context_index",
+        "title",
+        "entity_qid",
+        "paragraph_idx",
+        "sent_id",
+        "char_start",
+        "char_end",
+        "text",
+        "granularity",
+        "source_origin",
+        "raw_locator",
+        "locator_status"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "sample_id": {
+          "type": "string"
+        },
+        "context_index": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Per-sample foreign key to documents[].context_index. It replaces the former document_id field."
+        },
+        "title": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "entity_qid": {
+          "$ref": "#/$defs/nullableString",
+          "description": "For 2Wiki, fill only when source.title exactly equals a linked claim subject or object with an explicit QID; otherwise null."
+        },
+        "paragraph_idx": {
+          "$ref": "#/$defs/nullableInteger"
+        },
+        "sent_id": {
+          "$ref": "#/$defs/nullableInteger"
+        },
+        "char_start": {
+          "$ref": "#/$defs/nullableInteger"
+        },
+        "char_end": {
+          "$ref": "#/$defs/nullableInteger"
+        },
+        "text": {
+          "type": "string"
+        },
+        "granularity": {
+          "enum": [
+            "sentence",
+            "paragraph",
+            "sentence_set"
+          ]
+        },
+        "source_origin": {
+          "enum": [
+            "official_gold",
+            "derived"
+          ]
+        },
+        "raw_locator": {
+          "$ref": "#/$defs/rawLocator"
+        },
+        "locator_status": {
+          "enum": [
+            "unverified",
+            "valid",
+            "invalid"
+          ]
+        }
+      }
+    },
+    "claimSourceLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "link_id",
+        "claim_id",
+        "source_ids",
+        "if_minimum",
+        "relation",
+        "validation_status",
+        "automatic_match_reason",
+        "confidence",
+        "needs_review",
+        "reviewer",
+        "review_timestamp",
+        "rule_version"
+      ],
+      "properties": {
+        "link_id": {
+          "type": "string"
+        },
+        "claim_id": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "if_minimum": {
+          "type": "boolean",
+          "description": "True only when this exact source_ids set is sufficient and passes the ordered leave-one-out minimum test recorded in the GPT judgment. The postprocessor may validate but must not alter the proposed set to force this value."
+        },
+        "relation": {
+          "enum": [
+            "direct_entailment",
+            "joint_entailment",
+            "derivation_premise"
+          ]
+        },
+        "validation_status": {
+          "enum": [
+            "unreviewed",
+            "accepted",
+            "rejected"
+          ]
+        },
+        "automatic_match_reason": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Structural matching confidence only; not GPT semantic confidence."
+        },
+        "needs_review": {
+          "type": "boolean"
+        },
+        "reviewer": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "review_timestamp": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "rule_version": {
+          "type": "string"
+        }
+      }
+    },
+    "reasoningEdge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_node_ids",
+        "target_node_id",
+        "relation"
+      ],
+      "properties": {
+        "source_node_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "target_node_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "relation": {
+          "enum": [
+            "inference",
+            "comparison"
+          ]
+        }
+      }
+    },
+    "reasoningGraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reasoning_graph_id",
+        "sample_id",
+        "node_ids",
+        "edges",
+        "reasoning_hop_count",
+        "graph_type",
+        "graph_origin"
+      ],
+      "properties": {
+        "reasoning_graph_id": {
+          "type": "string"
+        },
+        "sample_id": {
+          "type": "string"
+        },
+        "node_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reasoningEdge"
+          }
+        },
+        "reasoning_hop_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of claim nodes on the longest dependency path; comparison edges do not add a hop."
+        },
+        "graph_type": {
+          "type": "string"
+        },
+        "graph_origin": {
+          "enum": [
+            "official_gold",
+            "derived"
+          ]
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "errors",
+        "warnings",
+        "validator_version",
+        "validated_at"
+      ],
+      "properties": {
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "qualified",
+            "excluded",
+            null
+          ]
+        },
+        "errors": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "warnings": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "validator_version": {
+          "type": "string"
+        },
+        "validated_at": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    }
+  }
+}

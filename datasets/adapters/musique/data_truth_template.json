@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.1",
+  "processing_stage": "adapter_candidate",
+  "dataset_manifest": {
+    "dataset_name": "HotpotQA",
+    "release": "v1.1",
+    "split": "train",
+    "source_file": "historical://research_project/dataset/Hotpot/hotpotqa_data/hotpot_train.json",
+    "file_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "adapter_version": "1.0.0",
+    "run_id": "REPLACE_WITH_UNIQUE_RUN_ID",
+    "sidecar_version": "1.0.0",
+    "schema_version": "2.1"
+  },
+  "semantic_screening": {
+    "method": null,
+    "model": null,
+    "reasoning_effort": null,
+    "prompt_version": null,
+    "rule_version": "1.0.0",
+    "screened_at": null,
+    "requires_human_audit": true
+  },
+  "sample": {
+    "sample_id": "HotpotQA:v1.1:train:REPLACE_ME",
+    "original_sample_id": "REPLACE_ME",
+    "dataset_name": "HotpotQA",
+    "release": "v1.1",
+    "split": "train",
+    "question": "REPLACE_ME",
+    "answer": "REPLACE_ME",
+    "question_type": "bridge",
+    "question_level": "hard",
+    "answerability": 1,
+    "raw_locator": {
+      "source_file": "historical://research_project/dataset/Hotpot/hotpotqa_data/hotpot_train.json",
+      "record_index": 0
+    },
+    "normalization_status": "normalized",
+    "exclusion_reason": null
+  },
+  "documents": [
+    {
+      "context_index": 0,
+      "title": "REPLACE_ME",
+      "text": "REPLACE_ME",
+      "sentences": [
+        {
+          "sentence_index": 0,
+          "text": "REPLACE_ME"
+        }
+      ],
+      "is_supporting_context": true,
+      "raw_locator": {
+        "context_index": 0,
+        "title": "REPLACE_ME"
+      }
+    }
+  ],
+  "claims": [],
+  "sources": [
+    {
+      "source_id": "HotpotQA:v1.1:train:REPLACE_ME:source:0",
+      "sample_id": "HotpotQA:v1.1:train:REPLACE_ME",
+      "context_index": 0,
+      "title": "REPLACE_ME",
+      "entity_qid": null,
+      "paragraph_idx": null,
+      "sent_id": 0,
+      "char_start": null,
+      "char_end": null,
+      "text": "REPLACE_ME",
+      "granularity": "sentence",
+      "source_origin": "official_gold",
+      "raw_locator": {
+        "context_index": 0,
+        "title": "REPLACE_ME",
+        "sent_id": 0
+      },
+      "locator_status": "valid"
+    }
+  ],
+  "claim_source_links": [],
+  "reasoning_graph": null,
+  "validation": {
+    "status": null,
+    "errors": {},
+    "warnings": {},
+    "validator_version": "2.1.0",
+    "validated_at": null
+  }
+}

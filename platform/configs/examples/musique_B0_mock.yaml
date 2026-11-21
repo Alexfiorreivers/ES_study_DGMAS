@@ -1,0 +1,138 @@
+schema_version: '0.1'
+config_version: m3-a.1.0.0
+experiment_id: m3a-fake-musique-B0-e-ready
+dataset:
+  adapter: data_truth_v3
+  path: ../datasets/final/musique/musique_final_gold_167_schema3_core.jsonl
+  schema_path: ../datasets/schema/data_truth_schema.json
+  expected_sha256: c9b641e9483c8677bfa2c3f8d79543c32ddb920d72fb4ccaec1de2793ec8a067
+  sample_ids:
+  - MuSiQue:v1.0:dev:2hop__17508_17335
+  - MuSiQue:v1.0:dev:3hop1__836699_15840_36014
+  - MuSiQue:v1.0:dev:4hop1__696484_49925_13759_736921
+  repair_manifest_path: null
+  expected_repair_manifest_sha256: null
+gates:
+  gate_a:
+    kind: schema_and_relational_v3
+    require_normalized: true
+    require_qualified: true
+  gate_b:
+    kind: experiment_eligibility
+    policy_registry:
+      2WikiMultiHopQA:
+        compositional:
+          gold_partition_minimal_v2: 2.0.0
+        comparison:
+          gold_partition_minimal_v2: 2.0.0
+        inference:
+          gold_partition_minimal_v2: 2.0.0
+        bridge_comparison:
+          gold_partition_minimal_v2: 2.0.0
+      MuSiQue:
+        2hop:
+          gold_decomposition_step_partition_musique_v2: 2.0.0
+        3hop:
+          gold_decomposition_step_partition_musique_v2: 2.0.0
+        4hop:
+          gold_decomposition_step_partition_musique_v2: 2.0.0
+document_assignment:
+  policy: gold_decomposition_step_partition_musique_v2
+  rule_version: 2.0.0
+  seed: 20260929
+  hop_count_basis: null
+  difficulty_basis: decomposition_step_count
+  evidence_unit: decomposition_step
+  graph_semantics: raw_hash_reference_dag
+  eligibility_constraints: null
+  include_distractors: false
+  record_unused_context_refs: false
+  empty_assignment:
+    allowed_agents_by_question_type:
+      2hop:
+      - agent_2
+    round_0_message_status: no_new_information
+    round_0_claims: []
+  mappings:
+    2hop:
+      agent_1:
+      - 1
+      agent_2: []
+      agent_3:
+      - 2
+    3hop:
+      agent_1:
+      - 1
+      agent_2:
+      - 2
+      agent_3:
+      - 3
+    4hop:
+      agent_1:
+      - 1
+      - 2
+      agent_2:
+      - 3
+      agent_3:
+      - 4
+agents:
+- agent_id: agent_1
+  role: evidence_analyst
+  prompt_profile: m3-registry
+- agent_id: agent_2
+  role: evidence_analyst
+  prompt_profile: m3-registry
+- agent_id: agent_3
+  role: evidence_analyst
+  prompt_profile: m3-registry
+topology:
+  kind: chain
+  center_agent_id: agent_2
+protocol:
+  profile: evaluation_ready_v1
+  initial_read_round: 0
+  communication_rounds: 0
+  frozen_mailbox: true
+  raw_documents_after_initial_read: false
+  message_format: structured
+provider:
+  kind: lineage_replay_mock
+  version: 1.0.0
+generation:
+  thinking: null
+  response_format: json_object
+  temperature: 0.0
+  max_output_tokens: 1024
+  prompt_requires_json_instruction: true
+execution:
+  checkpoint_granularity: question
+  resume_policy: skip_completed
+  max_attempts_per_request: 1
+  max_total_model_attempts: 3
+  retry:
+    initial_backoff_seconds: 0.0
+    max_backoff_seconds: 0.0
+    honor_retry_after: true
+    retryable_error_codes: []
+  continue_after_question_failure: true
+  persist_after_each_question: true
+aggregation:
+  kind: union
+  version: terminal-offline-union@1.0.0
+randomness:
+  seed: 20260929
+  replicate_id: m3a-acceptance-fake-musique-r1
+output:
+  runs_dir: outputs/smoke
+m3_condition:
+  condition_id: B0
+  model_id: lineage-replay-mock@1.0.0
+  dataset_id: musique-final-gold-167@english-localized:sha256:c9b641e9483c8677bfa2c3f8d79543c32ddb920d72fb4ccaec1de2793ec8a067
+  replicate_id: m3a-acceptance-fake-musique-r1
+  prompt_ref: m3-B0@1.0.4
+  prompt_registry:
+    path: configs/prompt_registry/m3_prompt_registry_1.0.4.yaml
+    expected_sha256: 7b8ab0772a8d0b3e405749c9f248c1f8f2ac50f3ead915660f06abe8ca48ef97
+  terminal_union_ref: terminal-offline-union@1.0.0
+  parent_projection_ref: identity@1.0.0
+  run_intent: development

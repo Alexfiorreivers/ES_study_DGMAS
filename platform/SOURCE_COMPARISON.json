@@ -1,0 +1,194 @@
+[
+  {
+    "path": "src/agent_lab/__init__.py",
+    "minimum_sha256": "cdf9f7d953c3880881ecce96f216d70afa670239552fdfa6b6331dc5aaf47899",
+    "status": "identical",
+    "historical_current_sha256": "cdf9f7d953c3880881ecce96f216d70afa670239552fdfa6b6331dc5aaf47899",
+    "packaged_sha256": "cdf9f7d953c3880881ecce96f216d70afa670239552fdfa6b6331dc5aaf47899",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/acceptance.py",
+    "minimum_sha256": "4dabf52e95de0f96f3d99b4835476f56fe608a0f8b266882235aaa9dacc9f0ae",
+    "status": "updated",
+    "historical_current_sha256": "3f5cf727c30c4b0aaddbc04b0ed56ca45209e5f47c5c3b6eb8ff5294d0503637",
+    "packaged_sha256": "7a69ba61902e5e0186a2ba6ad3c5394a7d369f47d9163564966068ba8bbd67e5",
+    "localization_note": "English output labels only; scientific behavior unchanged"
+  },
+  {
+    "path": "src/agent_lab/adapters/__init__.py",
+    "minimum_sha256": "6a91fcd6fc360b5defc7a239954edbceb8fdedb8bb29febe02b24a75e4ef80c9",
+    "status": "identical",
+    "historical_current_sha256": "6a91fcd6fc360b5defc7a239954edbceb8fdedb8bb29febe02b24a75e4ef80c9",
+    "packaged_sha256": "6a91fcd6fc360b5defc7a239954edbceb8fdedb8bb29febe02b24a75e4ef80c9",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/adapters/datasets/__init__.py",
+    "minimum_sha256": "558334a4b2e4abe6c597ab112237d64984f41c2cbe1745a539e00d73b1844696",
+    "status": "identical",
+    "historical_current_sha256": "558334a4b2e4abe6c597ab112237d64984f41c2cbe1745a539e00d73b1844696",
+    "packaged_sha256": "558334a4b2e4abe6c597ab112237d64984f41c2cbe1745a539e00d73b1844696",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/adapters/datasets/data_truth_v3.py",
+    "minimum_sha256": "d8ffb03c6186f231550db52ce183e6186349f747eb0088c24682f5092ee468f9",
+    "status": "identical",
+    "historical_current_sha256": "d8ffb03c6186f231550db52ce183e6186349f747eb0088c24682f5092ee468f9",
+    "packaged_sha256": "d8ffb03c6186f231550db52ce183e6186349f747eb0088c24682f5092ee468f9",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/assignment.py",
+    "minimum_sha256": "71ef904870d0f737a230752b94651091b84e3fa951d364779d1a2192e8b175bd",
+    "status": "identical",
+    "historical_current_sha256": "71ef904870d0f737a230752b94651091b84e3fa951d364779d1a2192e8b175bd",
+    "packaged_sha256": "71ef904870d0f737a230752b94651091b84e3fa951d364779d1a2192e8b175bd",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/cli.py",
+    "minimum_sha256": "c6d58e50de91d8541c48e00774396b8c6473cf48376ac5fc55a72b8e3122b436",
+    "status": "updated",
+    "historical_current_sha256": "301aad8aab75ace5b3cab4717fed3a4bb242ce9f0a7301fc027d6920004dd799",
+    "packaged_sha256": "301aad8aab75ace5b3cab4717fed3a4bb242ce9f0a7301fc027d6920004dd799",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/domain/__init__.py",
+    "minimum_sha256": "5252c760678d38f386310a81abcfb17108aee541295cf31d6de74af0b1354894",
+    "status": "identical",
+    "historical_current_sha256": "5252c760678d38f386310a81abcfb17108aee541295cf31d6de74af0b1354894",
+    "packaged_sha256": "5252c760678d38f386310a81abcfb17108aee541295cf31d6de74af0b1354894",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/domain/contracts_v0_1.py",
+    "minimum_sha256": "7af81a7f0dcf09ec4b7836c0e366fd1a571eacfc4452f0388197273c9749a028",
+    "status": "updated",
+    "historical_current_sha256": "12673ca2ced15f328988ca32f82c904bffa48d6d852be8a1dc2014433d2be4a4",
+    "packaged_sha256": "40eefa3ca6a8d1d716fe9692c6fc754c5f833fa79556dd46f9ad4fab941dec69",
+    "localization_note": "Allow explicitly identified English-localized hashes only for development mock inputs; original formal checks retained"
+  },
+  {
+    "path": "src/agent_lab/eligibility.py",
+    "minimum_sha256": "291a96cb304aa156d97ce6c81ba2a24fc9aaeb16c323b0b49fd7423edc1c899d",
+    "status": "identical",
+    "historical_current_sha256": "291a96cb304aa156d97ce6c81ba2a24fc9aaeb16c323b0b49fd7423edc1c899d",
+    "packaged_sha256": "291a96cb304aa156d97ce6c81ba2a24fc9aaeb16c323b0b49fd7423edc1c899d",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/evaluation_trace.py",
+    "minimum_sha256": "32d82c148ba03ca2f55ae1a6f5afc3e79121497c805af658513e2664c0ba3304",
+    "status": "identical",
+    "historical_current_sha256": "32d82c148ba03ca2f55ae1a6f5afc3e79121497c805af658513e2664c0ba3304",
+    "packaged_sha256": "32d82c148ba03ca2f55ae1a6f5afc3e79121497c805af658513e2664c0ba3304",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/m2.py",
+    "minimum_sha256": "6d1d80a56e77e4080246ac3c1c4887bf25f7f9dcc39436d8d50006fe68825c89",
+    "status": "identical",
+    "historical_current_sha256": "6d1d80a56e77e4080246ac3c1c4887bf25f7f9dcc39436d8d50006fe68825c89",
+    "packaged_sha256": "6d1d80a56e77e4080246ac3c1c4887bf25f7f9dcc39436d8d50006fe68825c89",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/m2_contracts.py",
+    "minimum_sha256": "377d9b1748e48bc38c91dde141bc35eb6ba9d84c6d2721baf3a51c33ef6c91d9",
+    "status": "identical",
+    "historical_current_sha256": "377d9b1748e48bc38c91dde141bc35eb6ba9d84c6d2721baf3a51c33ef6c91d9",
+    "packaged_sha256": "377d9b1748e48bc38c91dde141bc35eb6ba9d84c6d2721baf3a51c33ef6c91d9",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/m3_audit.py",
+    "minimum_sha256": "fc216f2e5e2bb4c5c8a40f398401a52faa7472aa812f0410c548fc670f564666",
+    "status": "updated",
+    "historical_current_sha256": "448d982c7755303472c61f71d87a5fe7671a959ec99ac98497c937a3a3a8d484",
+    "packaged_sha256": "448d982c7755303472c61f71d87a5fe7671a959ec99ac98497c937a3a3a8d484",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/m3_execution.py",
+    "minimum_sha256": "247731cdfb315fa87ad6fef5bf436f078f15b62a115d164246f99c153de3e5a5",
+    "status": "updated",
+    "historical_current_sha256": "a45b8902f9fcc94b7cfafadc8179367e28552ea6089ab458686126597a4dd48e",
+    "packaged_sha256": "e3a348a0bad020665187ab824316715c025926f3ffa350c720186070c2316f7d",
+    "localization_note": "Allow explicitly identified English-localized hashes only for development mock inputs; original formal checks retained"
+  },
+  {
+    "path": "src/agent_lab/m3_prompts.py",
+    "minimum_sha256": "922f65f5e446568d7449314f6815906f71b5f5a6732fcedfdaadb69c499bc4dc",
+    "status": "updated",
+    "historical_current_sha256": "0b3d5ec01fdb2508ea2e42d5cdc0d05489cc478b04ba969ce19c24baf7c33413",
+    "packaged_sha256": "0b3d5ec01fdb2508ea2e42d5cdc0d05489cc478b04ba969ce19c24baf7c33413",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/m3_statistics.py",
+    "minimum_sha256": null,
+    "status": "added",
+    "historical_current_sha256": "c9b1356c7fecae36a97c707346ea0ed4bd0a4451d0fdbd8fa65bdb08d1accde9",
+    "packaged_sha256": "c9b1356c7fecae36a97c707346ea0ed4bd0a4451d0fdbd8fa65bdb08d1accde9",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/prompts.py",
+    "minimum_sha256": "7a124738f7541c27f745c5679662001aa1aac4d97d4e53bf461d4aafbc9755fa",
+    "status": "identical",
+    "historical_current_sha256": "7a124738f7541c27f745c5679662001aa1aac4d97d4e53bf461d4aafbc9755fa",
+    "packaged_sha256": "7a124738f7541c27f745c5679662001aa1aac4d97d4e53bf461d4aafbc9755fa",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/provider_diagnostics.py",
+    "minimum_sha256": "3c477ad780a910cae026436b5fc0edc2da1ed30ea8e96c14b83e563e10122c52",
+    "status": "updated",
+    "historical_current_sha256": "7d2abb3249adac11f5c589731deff302dc86d4b9dd73537b2c16a439955b4826",
+    "packaged_sha256": "7d2abb3249adac11f5c589731deff302dc86d4b9dd73537b2c16a439955b4826",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/providers.py",
+    "minimum_sha256": "1a61fb05cd326506a6fe837bd9f3a189e06850fc936cb655df0d493bed24c10f",
+    "status": "updated",
+    "historical_current_sha256": "0619eaf26bf3b20bc5952d55c2ea552b2c2b0094694d685008c9ddfae7fe98ec",
+    "packaged_sha256": "0619eaf26bf3b20bc5952d55c2ea552b2c2b0094694d685008c9ddfae7fe98ec",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/reliability.py",
+    "minimum_sha256": "283e4a8f8bb84538640430c9d07fad06f99beb127034dd1cf5c49fa97450cb0d",
+    "status": "updated",
+    "historical_current_sha256": "8a86466f244fc97dcab7717e6220287f22a1216171d0949d3238a9c968615528",
+    "packaged_sha256": "8a86466f244fc97dcab7717e6220287f22a1216171d0949d3238a9c968615528",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/runtime.py",
+    "minimum_sha256": "2e3fcc9171ed1913814836d984f67d0449c3e67a0119f0f0b96edef164c183c4",
+    "status": "identical",
+    "historical_current_sha256": "2e3fcc9171ed1913814836d984f67d0449c3e67a0119f0f0b96edef164c183c4",
+    "packaged_sha256": "2e3fcc9171ed1913814836d984f67d0449c3e67a0119f0f0b96edef164c183c4",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/topology.py",
+    "minimum_sha256": "77fddd1ca69fe9a79b9a139d677ad6e4040ba1e19bf9d89271e6ea30530791cc",
+    "status": "identical",
+    "historical_current_sha256": "77fddd1ca69fe9a79b9a139d677ad6e4040ba1e19bf9d89271e6ea30530791cc",
+    "packaged_sha256": "77fddd1ca69fe9a79b9a139d677ad6e4040ba1e19bf9d89271e6ea30530791cc",
+    "localization_note": "Unchanged runtime module"
+  },
+  {
+    "path": "src/agent_lab/truth_view.py",
+    "minimum_sha256": "8b14b902267e3815e9d68e40d2f92465980353f31a711b3e1e842cec9f1a3f7c",
+    "status": "identical",
+    "historical_current_sha256": "8b14b902267e3815e9d68e40d2f92465980353f31a711b3e1e842cec9f1a3f7c",
+    "packaged_sha256": "8b14b902267e3815e9d68e40d2f92465980353f31a711b3e1e842cec9f1a3f7c",
+    "localization_note": "Unchanged runtime module"
+  }
+]

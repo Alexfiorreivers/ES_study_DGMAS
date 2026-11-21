@@ -1,0 +1,3 @@
+# Text-free traceability metadata
+
+Extracted from the pre-review records without changing membership or identifiers. input_pool_ids.json contains 567 pool records. historical_selection_ids.json contains the historical observation identities; this is not a list of 680 primary runs. source_locator_index.csv contains 7,338 document occurrences with titles and hashes. Candidate Wikipedia URLs are generated from the recorded titles, not individually verified historical source links. The files contain no question wording, source passages, generated answers or reviewer explanations. The private evidence store preserves the original text and exact records.

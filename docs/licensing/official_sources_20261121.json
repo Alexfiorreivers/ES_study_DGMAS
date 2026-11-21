@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-11-21",
+  "sources": [
+    {
+      "id": "2wiki",
+      "url": "https://github.com/Alab-NII/2wikimultihop/blob/main/LICENSE",
+      "finding": "Apache-2.0 repository notice. Applies to rights the licensor can grant; it does not replace embedded Wikipedia terms."
+    },
+    {
+      "id": "2wiki_data",
+      "url": "https://github.com/Alab-NII/2wikimultihop/blob/main/README.md",
+      "finding": "Release 20210407 contains Wikipedia paragraphs, titles and sentence/hyperlink locators."
+    },
+    {
+      "id": "musique",
+      "url": "https://github.com/StonyBrookNLP/musique/blob/main/README.md",
+      "finding": "MuSiQue is distributed under CC BY 4.0. Seed sources include SQuAD, T-REx, Natural Questions, MLQA and Zero Shot RE."
+    },
+    {
+      "id": "wikimedia",
+      "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/en#7._Licensing_of_Content",
+      "finding": "Section 7 requires attribution and applicable licenses, identifies exceptions for fair-use content and additional attribution, and requires ShareAlike and change notices for adapted community text."
+    },
+    {
+      "id": "squad",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "finding": "Official dataset page identifies CC BY-SA 4.0."
+    },
+    {
+      "id": "natural_questions",
+      "url": "https://ai.google.com/research/NaturalQuestions/download",
+      "finding": "Official data download page identifies Creative Commons Share-Alike 3.0, separately from the code repository license."
+    },
+    {
+      "id": "mlqa",
+      "url": "https://github.com/facebookresearch/MLQA/blob/main/README.md",
+      "finding": "Official README distinguishes dataset CC BY-SA 3.0 from the code license."
+    },
+    {
+      "id": "trex",
+      "url": "https://hadyelsahar.io/t-rex/",
+      "finding": "Official project page identifies dataset CC BY-SA 4.0 and extraction pipeline MIT."
+    },
+    {
+      "id": "cc_by",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "finding": "Attribution, a license reference and indication of modifications are required. The grant only covers rights the licensor can license."
+    },
+    {
+      "id": "cc_by_sa_3",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.en",
+      "finding": "Adapted material has attribution and ShareAlike conditions; mere inclusion in a collection does not automatically impose its license on unrelated independent code."
+    },
+    {
+      "id": "deepseek_api",
+      "url": "https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html",
+      "finding": "API terms effective April 29, 2026 assign any provider rights in outputs to the user subject to law and terms; input/third-party rights remain separate."
+    },
+    {
+      "id": "deepseek_general",
+      "url": "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
+      "finding": "Inputs/outputs remain the user responsibility; third-party output material is not guaranteed non-infringing."
+    },
+    {
+      "id": "qwen",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE",
+      "finding": "Official Qwen3-8B model license is Apache-2.0. No model weights are included here; this is not a blanket license for copied prompt passages."
+    }
+  ],
+  "unresolved": "Exact per-item seed lineage and Zero Shot RE component terms were not established for the retained MuSiQue subset. No prohibition is inferred from that gap."
+}

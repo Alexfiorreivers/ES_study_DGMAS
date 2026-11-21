@@ -1,0 +1,57 @@
+figure,series,metric,value_percent,source,interval
+2,DeepSeek 1.0.4,CSR,30.5,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek earlier,CSR,30.38,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,Qwen3-8B,CSR,22.5,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek 1.0.4,ESS,28.75,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek earlier,ESS,28.5,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,Qwen3-8B,ESS,18.38,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek 1.0.4,VSSR,1.75,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek earlier,VSSR,1.75,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,Qwen3-8B,VSSR,2.5,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek 1.0.4,AA,30.5,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,DeepSeek earlier,AA,30.25,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+2,Qwen3-8B,AA,19.63,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,M,CSR,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B0,CSR,100.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B1,CSR,100.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,M,ESS,47.50,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B0,ESS,93.44,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B1,ESS,91.88,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,M,VSSR,2.50,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B0,VSSR,6.56,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B1,VSSR,8.13,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,M,AA,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B0,AA,100.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+3,B1,AA,100.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,M,CSR,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A1,CSR,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A2,CSR,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,M,ESS,47.50,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A1,ESS,0.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A2,ESS,46.25,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,M,VSSR,2.50,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A1,VSSR,0.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A2,VSSR,3.75,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,M,AA,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A1,AA,0.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+4,A2,AA,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,2Wiki,CSR,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,MuSiQue,CSR,66.25,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,2Wiki,ESS,47.50,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,MuSiQue,ESS,46.67,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,2Wiki,VSSR,2.50,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,MuSiQue,VSSR,1.67,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,2Wiki,AA,50.00,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+5,MuSiQue,AA,48.33,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,M,CSR,66.25,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B0,CSR,99.38,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B1,CSR,100.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,M,ESS,46.67,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B0,ESS,79.17,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B1,ESS,74.17,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,M,VSSR,1.67,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B0,VSSR,0.0,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B1,VSSR,1.67,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,M,AA,48.33,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B0,AA,79.17,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates
+6,B1,AA,75.83,Frozen aggregate; see source table and numerical release log,Not supplied for revised estimates

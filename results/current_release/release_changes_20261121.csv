@@ -1,0 +1,10 @@
+table,dataset,condition,metric,previous_percent,current_percent,basis
+Table_3.csv,2wiki,M,CSR,50.35,50.00,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_3.csv,2wiki,M,VSSR,2.49,2.50,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_3.csv,2wiki,M,AA,50.27,50.00,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_4.csv,2wiki,M,CSR,50.35,50.00,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_4.csv,2wiki,M,VSSR,2.49,2.50,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_4.csv,2wiki,M,AA,50.27,50.00,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_5.csv,2wiki,M,CSR,50.35,50.00,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_5.csv,2wiki,M,VSSR,2.49,2.50,Author clarification 2026-11-21; equals frozen sample_replaced aggregate
+Table_5.csv,2wiki,M,AA,50.27,50.00,Author clarification 2026-11-21; equals frozen sample_replaced aggregate

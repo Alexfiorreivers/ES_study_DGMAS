@@ -1,0 +1,36 @@
+{
+  "config_version": "musique-selection-v1.0.0",
+  "dataset": {
+    "name": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev"
+  },
+  "paths": {
+    "input_jsonl": "raw/musique_ans_v1.0_dev.jsonl",
+    "hm_schema": "data_truth_schema.json",
+    "hm_template": "data_truth_template.json",
+    "output_root": "MuSiQue_pipeline",
+    "expected_input_sha256": null
+  },
+  "versions": {
+    "adapter": "1.0.0",
+    "rule": "musique-confirmed-rules-2026-09-06",
+    "sidecar": "1.0.0",
+    "schema": "2.1",
+    "validator": "musique-validator-1.0.0",
+    "qa2s_rule": "qa2s-candidate-v1.0"
+  },
+  "sampling_seed": "20260907",
+  "run_id_policy": "utc_basic_uuid4_8",
+  "final_quotas": {
+    "2hop": 67,
+    "3hop1": 34,
+    "3hop2": 33,
+    "4hop1": 22,
+    "4hop2": 22,
+    "4hop3": 22
+  },
+  "soft_coverage_policy": "coverage_only_no_numeric_quota",
+  "batch_size": 20,
+  "output_format": "utf-8-jsonl-one-object-per-line"
+}

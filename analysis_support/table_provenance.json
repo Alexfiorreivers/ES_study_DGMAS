@@ -1,0 +1,282 @@
+{
+  "tables": [
+    {
+      "file": "A1_all_panel_cells.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/panel_cells.csv",
+      "source_sha256": "2d10f06f269d719a1bdcd6653f30d93de34aa46e1ff7a8363c41dc1394e9bcbb",
+      "rows": 11,
+      "columns_displayed": [
+        "cell_id",
+        "question_n",
+        "observation_n",
+        "replicate_indices",
+        "node_scope_n",
+        "edge_scope_n",
+        "multi_node_union_observation_n"
+      ]
+    },
+    {
+      "file": "C1_terminal_four_view_condition_means.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/condition_question_macro.csv",
+      "source_sha256": "7bb3bcd7e6169addd4daa31869ae0a646f4959eb41cc1a3c20f33ddffa33c91e",
+      "rows": 128,
+      "columns_displayed": [
+        "dataset",
+        "condition",
+        "view",
+        "metric",
+        "question_n",
+        "mean",
+        "question_bootstrap_95_low",
+        "question_bootstrap_95_high",
+        "out_of_range_question_contributions"
+      ]
+    },
+    {
+      "file": "C2_terminal_four_view_paired_differences.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/paired_condition_differences.csv",
+      "source_sha256": "bf1a3fbdb2c48bc5b9f445648abfe1962ad3658128ba4af901bd4b1cf055ea67",
+      "rows": 96,
+      "columns_displayed": [
+        "dataset",
+        "comparison",
+        "view",
+        "metric",
+        "question_n",
+        "difference",
+        "question_bootstrap_95_low",
+        "question_bootstrap_95_high"
+      ]
+    },
+    {
+      "file": "C3_terminal_macro_audit_intervals.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/estimates_and_audit_uncertainty.csv",
+      "source_sha256": "5def59126568eb9fd52422ec7724d2649182b58453a4bdb3569a3775f2f58989",
+      "rows": 896,
+      "columns_displayed": [
+        "group_type",
+        "dataset",
+        "condition",
+        "comparison",
+        "view",
+        "metric",
+        "estimate",
+        "audit_design_se",
+        "audit_design_95_low",
+        "audit_design_95_high"
+      ]
+    },
+    {
+      "file": "C4_terminal_all_audit_uncertainty.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/estimates_and_audit_uncertainty.csv",
+      "source_sha256": "5def59126568eb9fd52422ec7724d2649182b58453a4bdb3569a3775f2f58989",
+      "rows": 3904,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "C5_terminal_observed_and_expanded_counts.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/observed_and_expanded_counts.csv",
+      "source_sha256": "83ffd496681db504828ac718d515220a2312efd262b6535651e059b22195d57f",
+      "rows": 96,
+      "columns_displayed": [
+        "layer",
+        "metric",
+        "count",
+        "denominator",
+        "rate",
+        "is_estimate"
+      ]
+    },
+    {
+      "file": "D1_primary_node_edge_HT.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/condition_and_stratum_tables.csv",
+      "source_sha256": "a8a7da02d1da7f8dd6c210299997f02c6c223fe36697a28688dd5f7feb6b6d67",
+      "rows": 44,
+      "columns_displayed": [
+        "kind",
+        "cell_id",
+        "metric",
+        "scope_n",
+        "estimated_count",
+        "question_macro_mean",
+        "applicable_denominator_estimate",
+        "applicable_rate",
+        "bootstrap_lower",
+        "bootstrap_upper"
+      ]
+    },
+    {
+      "file": "D_condition_and_stratum_tables.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/condition_and_stratum_tables.csv",
+      "source_sha256": "a8a7da02d1da7f8dd6c210299997f02c6c223fe36697a28688dd5f7feb6b6d67",
+      "rows": 24188,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "D_paired_condition_differences.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/paired_condition_differences.csv",
+      "source_sha256": "bc618bed7a54e2eb4755caf79485b8eaf5efd5d6e0f863962d7da2a36276be5e",
+      "rows": 880,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "D_denominator_ledger.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/denominator_ledger.csv",
+      "source_sha256": "a107d437df8fb381f58a97cbce6dc7b9a943e91f598f9765396529dbeaf33060",
+      "rows": 233,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "D_scope_global_metrics.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/scope_global_metrics.csv",
+      "source_sha256": "c10907525d37c6b01287ff3d03bd584b0732dbb701787e076d300124acdcfce2",
+      "rows": 350,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "E1_node_allocation.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/remaining_node_sample_20261013/population_allocation_6329.csv",
+      "source_sha256": "2f6f3dad6e075bcb0d76b1428b4fde7c070e139d361dc23291a644e659623beb",
+      "rows": 24,
+      "operation": "group by frozen sampling_stratum; validate population and selected counts"
+    },
+    {
+      "file": "E1_edge_allocation.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/remaining_edge_sample_20261012/population_allocation_1885.csv",
+      "source_sha256": "577958f31961109cc7687057317d85cf91af969c13af6d0872c3152fa7990d0f",
+      "rows": 8,
+      "operation": "group by frozen sampling_stratum; validate population and selected counts"
+    },
+    {
+      "file": "E1_terminal_allocation.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/sampling_allocation.csv",
+      "source_sha256": "6de603d77b49dbbf1232462233898d06a9a55509f42387ea9816c7d03360b34f",
+      "rows": 12,
+      "columns_displayed": [
+        "stratum",
+        "population_n",
+        "sample_n",
+        "unreviewed_n",
+        "weight"
+      ]
+    },
+    {
+      "file": "E2_node_field_agreement.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/node_candidate_agreement.csv",
+      "source_sha256": "be2107eb7c102bce0cf8b244868c0d742c8c0083a62605b588dd8eee5d7d836a",
+      "rows": 8,
+      "columns_displayed": [
+        "field",
+        "equal_n",
+        "sample_n",
+        "sample_agreement",
+        "weighted_agreement"
+      ]
+    },
+    {
+      "file": "E2_terminal_overall_field_agreement.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/simple_proxy_agreement.csv",
+      "source_sha256": "9c5307d3fce09b6c8aa444e877fdecc76fc720fa338421bef8dfe165894011f9",
+      "rows": 14,
+      "columns_displayed": [
+        "stratum",
+        "field",
+        "sample_n",
+        "matched_n",
+        "unweighted_agreement",
+        "represented_n",
+        "weighted_agreement",
+        "estimated_mismatched_population"
+      ]
+    },
+    {
+      "file": "E2_terminal_all_strata_agreement.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/simple_proxy_agreement.csv",
+      "source_sha256": "9c5307d3fce09b6c8aa444e877fdecc76fc720fa338421bef8dfe165894011f9",
+      "rows": 182,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "E3_terminal_global_bounds.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/unreviewed_worst_case_bounds.csv",
+      "source_sha256": "7acc7cbff07d8520d63ccc30390016cb854d9c417579d5484c3726b47e8e4c0b",
+      "rows": 36,
+      "columns_displayed": [
+        "group_type",
+        "group",
+        "metric",
+        "lower",
+        "upper",
+        "scope_n",
+        "dataset",
+        "condition",
+        "question_n",
+        "question_stratum",
+        "comparison"
+      ]
+    },
+    {
+      "file": "E3_terminal_all_bounds.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/unreviewed_worst_case_bounds.csv",
+      "source_sha256": "7acc7cbff07d8520d63ccc30390016cb854d9c417579d5484c3726b47e8e4c0b",
+      "rows": 244,
+      "copy": "byte-identical"
+    },
+    {
+      "file": "E3_node_edge_bounds.csv",
+      "source": "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/unreviewed_worst_case_bounds.csv",
+      "source_sha256": "91a3c8fc2c48eb7f0a06c4268543d41b0d2c380ce7a7531db9ebdc4558448cdf",
+      "rows": 8,
+      "copy": "byte-identical"
+    }
+  ],
+  "unique_questions": 60,
+  "terminal_scopes": 1366,
+  "unreviewed_terminal_scopes": 1036,
+  "corrected_reuse_records": 4,
+  "no_new_statistical_inference": true,
+  "historical_frozen_source_hashes": {
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/terminal_analysis_ledger.jsonl": "e1f7a380a8af53b52ebc3cf2aea014ebd07d75492e9ccf8c1cdbf9dee2a50702",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/analysis_summary.json": "3a507d7bd162090d52110fc139636293da90908f96772faf7f803899955b2016",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/panel_cells.csv": "2d10f06f269d719a1bdcd6653f30d93de34aa46e1ff7a8363c41dc1394e9bcbb",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/condition_question_macro.csv": "7bb3bcd7e6169addd4daa31869ae0a646f4959eb41cc1a3c20f33ddffa33c91e",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/paired_condition_differences.csv": "bf1a3fbdb2c48bc5b9f445648abfe1962ad3658128ba4af901bd4b1cf055ea67",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/estimates_and_audit_uncertainty.csv": "5def59126568eb9fd52422ec7724d2649182b58453a4bdb3569a3775f2f58989",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/observed_and_expanded_counts.csv": "83ffd496681db504828ac718d515220a2312efd262b6535651e059b22195d57f",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/condition_and_stratum_tables.csv": "a8a7da02d1da7f8dd6c210299997f02c6c223fe36697a28688dd5f7feb6b6d67",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/paired_condition_differences.csv": "bc618bed7a54e2eb4755caf79485b8eaf5efd5d6e0f863962d7da2a36276be5e",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/denominator_ledger.csv": "a107d437df8fb381f58a97cbce6dc7b9a943e91f598f9765396529dbeaf33060",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/scope_global_metrics.csv": "c10907525d37c6b01287ff3d03bd584b0732dbb701787e076d300124acdcfce2",
+    "results/research_change/final_statistics_stage_20261012/remaining_node_sample_20261013/population_allocation_6329.csv": "2f6f3dad6e075bcb0d76b1428b4fde7c070e139d361dc23291a644e659623beb",
+    "results/research_change/final_statistics_stage_20261012/remaining_edge_sample_20261012/population_allocation_1885.csv": "577958f31961109cc7687057317d85cf91af969c13af6d0872c3152fa7990d0f",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/sampling_allocation.csv": "6de603d77b49dbbf1232462233898d06a9a55509f42387ea9816c7d03360b34f",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/node_candidate_agreement.csv": "be2107eb7c102bce0cf8b244868c0d742c8c0083a62605b588dd8eee5d7d836a",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/simple_proxy_agreement.csv": "9c5307d3fce09b6c8aa444e877fdecc76fc720fa338421bef8dfe165894011f9",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/unreviewed_worst_case_bounds.csv": "7acc7cbff07d8520d63ccc30390016cb854d9c417579d5484c3726b47e8e4c0b",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/unreviewed_worst_case_bounds.csv": "91a3c8fc2c48eb7f0a06c4268543d41b0d2c380ce7a7531db9ebdc4558448cdf",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_primary_20261013/union_reuse_author_corrections_20261015.json": "a5310c08f30269d47fe9f1c53b045ad37a2e5a39b4811c193e079a45fe2b2915"
+  },
+  "packaged_source_hashes": {
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/terminal_analysis_ledger.jsonl": "bd79f7c81a2e90b0de1c59e367397a68e2b2eb95f5ea05e1b3f2ca0161aa434b",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/analysis_summary.json": "3a507d7bd162090d52110fc139636293da90908f96772faf7f803899955b2016",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/panel_cells.csv": "2d10f06f269d719a1bdcd6653f30d93de34aa46e1ff7a8363c41dc1394e9bcbb",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/condition_question_macro.csv": "7bb3bcd7e6169addd4daa31869ae0a646f4959eb41cc1a3c20f33ddffa33c91e",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/paired_condition_differences.csv": "bf1a3fbdb2c48bc5b9f445648abfe1962ad3658128ba4af901bd4b1cf055ea67",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/estimates_and_audit_uncertainty.csv": "5def59126568eb9fd52422ec7724d2649182b58453a4bdb3569a3775f2f58989",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/observed_and_expanded_counts.csv": "83ffd496681db504828ac718d515220a2312efd262b6535651e059b22195d57f",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/condition_and_stratum_tables.csv": "a8a7da02d1da7f8dd6c210299997f02c6c223fe36697a28688dd5f7feb6b6d67",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/paired_condition_differences.csv": "bc618bed7a54e2eb4755caf79485b8eaf5efd5d6e0f863962d7da2a36276be5e",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/denominator_ledger.csv": "a107d437df8fb381f58a97cbce6dc7b9a943e91f598f9765396529dbeaf33060",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/scope_global_metrics.csv": "c10907525d37c6b01287ff3d03bd584b0732dbb701787e076d300124acdcfce2",
+    "results/research_change/final_statistics_stage_20261012/remaining_node_sample_20261013/population_allocation_6329.csv": "2f6f3dad6e075bcb0d76b1428b4fde7c070e139d361dc23291a644e659623beb",
+    "results/research_change/final_statistics_stage_20261012/remaining_edge_sample_20261012/population_allocation_1885.csv": "577958f31961109cc7687057317d85cf91af969c13af6d0872c3152fa7990d0f",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/sampling_allocation.csv": "6de603d77b49dbbf1232462233898d06a9a55509f42387ea9816c7d03360b34f",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/node_candidate_agreement.csv": "be2107eb7c102bce0cf8b244868c0d742c8c0083a62605b588dd8eee5d7d836a",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/simple_proxy_agreement.csv": "9c5307d3fce09b6c8aa444e877fdecc76fc720fa338421bef8dfe165894011f9",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_statistics_20261015/unreviewed_worst_case_bounds.csv": "7acc7cbff07d8520d63ccc30390016cb854d9c417579d5484c3726b47e8e4c0b",
+    "results/research_change/final_statistics_stage_20261012/paper_node_edge_statistics_20261013/unreviewed_worst_case_bounds.csv": "91a3c8fc2c48eb7f0a06c4268543d41b0d2c380ce7a7531db9ebdc4558448cdf",
+    "results/research_change/final_statistics_stage_20261012/terminal_union_primary_20261013/union_reuse_author_corrections_20261015.json": "a5ffa4e1d53c25165f25660bb830474dff8a48306a79b7d81382178b13712b60"
+  },
+  "historical_manuscript_sha256": "c90b2e761e0d2426810d405b941fc44f894a01cfde91ad7550ec8bd4bf685002",
+  "scope": "Historical technical aggregate tables; source paths are repository-root relative. Original hashes remain provenance identifiers."
+}

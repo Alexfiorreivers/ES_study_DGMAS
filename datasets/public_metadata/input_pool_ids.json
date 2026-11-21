@@ -1,0 +1,3971 @@
+[
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:de498b840bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f29525d60bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0cbcfc680bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:371c1d5e0bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:58ea00460bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:29b6c2280bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e0887f8c0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:268337a00bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:cda459160bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8f9702640bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:582f4d4c0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4acc2a100bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8a6eec600bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3f4933aa0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:372d95020bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7a8cb2f20bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:57eac88c0bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c226ad120bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:83f6b9280bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3d1200fc0bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2779bc440bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6693ce0a0bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:163967040bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4b97c01e0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:487552420bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:dc232c940bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f267d8f80bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:11e03e560bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e2ec9eea0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:da2a12da0bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b22b87b40bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6296b85e0bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a5e486bc0bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c40d35580bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2e9cc8d60bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:16c88bba0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2fcf02980bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:60bb44320bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0f0ccb9e0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5c67e3820bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6ef000440bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0b1244de0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5a9ca2660bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3893c74c0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c05e16a40bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2e75dcc60bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8f0ec1c20bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4ce7cb8e0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0ae33a4a0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0d5bc1440bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:027970120bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f137fe640bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:240f079c0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:55a00d6c0bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ceadeee60bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a3b95abe0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2de7f0e00bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9946beb60bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fae3ba340bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f4427a300bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c6ac8fcc0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5df76cd20bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:835ec3be0bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:88be48840bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:61082d440bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4ec7cb7c0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9997225c0bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ea29ce5a0bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3ae059580bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5dac1e8e0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f49795060bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:86a396ba0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:26c35f920bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2cfcf5500bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b422e5fe0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:90a4389e0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7d098c560bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c4aa6c280bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:88511f080bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2c6ff8ea0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c2d71c980bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:00ef78f80bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d3cbda480bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:652d7dac0bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1332d0ca0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7c4a55000bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:89de3bee0bd911eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:439a6dec0bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0fb43d6a0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b2db6b6c0bdd11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4492ad920bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e7ca70d00bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f1a794f20bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:49baa9120bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ee42bc920bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2d3af13c0bdb11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5750bfd20bdc11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9291f6300bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:dac11f1c0bda11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c9ba19e708b311ebbd86ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a651b80b085f11ebbd5dac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b4f63414088511ebbd6dac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8131395c097a11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a98eb1e4087311ebbd66ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:064aa8e1084a11ebbd55ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3d0c3792089311ebbd74ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:283b6782094e11ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:714fb29a088e11ebbd70ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2eec9ea609ba11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:59945f46084c11ebbd56ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0ad6b76a08c611ebbd90ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8df789f4088b11ebbd6fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:48c17199087e11ebbd6bac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7a0206f2089f11ebbd78ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:51c970e6097111ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f46d9d9d08ea11ebbda7ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3ab39585097c11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:94415cd008e911ebbda7ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ee51acb0091111ebbdadac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e7d5fd3708c811ebbd92ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6e921fa8085d11ebbd5cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c93ab4a108cf11ebbd95ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:689d225009b411ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:81c09831088c11ebbd6fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:92ae94d309bb11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c5c305b5084a11ebbd56ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:525326cf088411ebbd6dac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6cf8289008a811ebbd7fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:76708e6a08b211ebbd85ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:aed7dc2d087111ebbd63ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6434ea6708eb11ebbda7ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4f49c369098d11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e5991727086711ebbd5eac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b41c5e6a098d11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:efa871c8085611ebbd59ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b6592e72088211ebbd6dac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d3867189095111ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:549d1a62086a11ebbd5fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:816baad6085511ebbd59ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6584189108fa11ebbdacac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8710b870086a11ebbd5fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c0cc52ed093f11ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c7417f2208d811ebbd9cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8bfdaed4092511ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6df9895c08b511ebbd88ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d3dc1cbc097211ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:02506a4208b611ebbd88ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2705d338093811ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c54c75a208db11ebbd9cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6205ee2a088f11ebbd72ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c107508209b911ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8dc5682e086711ebbd5eac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e4a9ec9508b911ebbd88ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:669c851e08e811ebbda6ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:acdf3b1e08d411ebbd96ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e0b50028096f11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f7ed995308d611ebbd99ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4390ee9809bd11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:acfe24b7096511ebbdafac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:862d05d5088c11ebbd6fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9337e50e097311ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ff243e0708e811ebbda7ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e8d6be8c08e311ebbda4ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6bb749ce08ed11ebbda7ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5ea97158099411ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8ec4cd9d085c11ebbd5cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b2b1e87c087011ebbd63ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6fe30f58097211ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:207788f1084a11ebbd55ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7d8c2e1808dd11ebbd9dac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4eb8cb5208e411ebbda4ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:81ffef24097b11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:df56ff28087511ebbd67ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9041408408d811ebbd9cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a17475e3095f11ebbdafac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f4d06fc9088011ebbd6dac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:09beb233086d11ebbd61ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:087b9501099511ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:361dc208086f11ebbd62ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:daf6e615089811ebbd77ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6c0fb8b6088b11ebbd6fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8b6c82e808cf11ebbd95ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:50ad4787085f11ebbd5cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3f9d631c08bf11ebbd8aac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c773343d08d211ebbd96ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:58bf032308c811ebbd91ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:da53741508f411ebbdaaac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:73ec0f28091811ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:14f3774f085611ebbd59ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:549d1a63086a11ebbd5fac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:41edeed3085b11ebbd5cac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7d55f0e008d411ebbd96ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:911afad908d111ebbd95ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f2d62e4b09b511ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:084f3ebf095611ebbdaeac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:024952c6099a11ebbdb0ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e1314496084a11ebbd56ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e717a82108fc11ebbdadac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e8d6343e087b11ebbd69ac1f6bf848b6",
+    "question_type": "comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fc04494a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:62a714d40bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2863da140bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:18e9a16e0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9376264a0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:48b07de00bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:812d167e0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6a848a240bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0d6d09160baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3705552a0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6a90b8800bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e9940b6a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d6b470160baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:aabc42040baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e6a203860bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:eb63d1060bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:53f6df9c0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:30170c900bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f243705c0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c9819f720baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5702c1920baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:024207d40bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:58f6d60a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:bc633e2c0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:881866100baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ded103fe0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f643bee20bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7a21f2d20bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:86f198be0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7b0abe460baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6709a7900baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1f382fb20bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0c4ac7f20bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7a5fd5940baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:654f7e380bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:286497740bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:92d74cd20bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3602458e0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3f5194f00bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:56d3a3a20bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1a301a200bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:aa69063e0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:91e7e3780baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c08b31300baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2eae57960bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f96ad5460baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fc53093c0bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e6606da80baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0ade3c6a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:038ea0fc0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8e7160ca0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:880c8e8a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:421d66f00bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:169db8ea0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3ac56c140baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0a65b7300bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3d46f1be0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8762e83a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:70f54a060bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f9d58be80baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:74c6f7200baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4aa187080baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3e5580c00bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:406a4ee00bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7ff9bdbc0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6503f3ce0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:923a8ca80bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fc50e3640bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2d6abcda0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a1feed9c0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:654d62ba0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5b637e060bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a2224cb00baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d39e16700baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:421ca5940bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7f3724780baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e5e6dfe80bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:27e926ca0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c5118f1a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:215df1140bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:181d58a20baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7b163c8a0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:702c4fee0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5d7ff6d80bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f6e78f680bae11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:078bb0d80baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:32ebe13e0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6577dfbe0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d4f53b200baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c531e7560baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:18f0a0220baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:32ecfc7c0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:676d16800bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:59a1aeae0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9ec332a00baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7f3cf1aa0baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:92324aca0bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:073a6f560bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e15b1fe20baf11ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3d14b1b80bb011ebab90acde48001122",
+    "question_type": "inference"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5b120c68089711ebbd77ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c7ae5b0c08aa11ebbd80ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3e1cba9e088911ebbd6eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:112af9b208e611ebbda4ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:56d1bac2089711ebbd76ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4e891cbc086411ebbd5eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:551e024408a611ebbd7fac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:50f8a3b3086611ebbd5eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:203b441208db11ebbd9cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ae1baf9708c811ebbd92ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:63c8e88608d311ebbd96ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:69d22e9f08a711ebbd7fac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b9687149089811ebbd77ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ab7c8844087011ebbd63ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a2745ec4085d11ebbd5cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7f77ac8808cf11ebbd95ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:cee7790e08cc11ebbd93ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:ce471ffd086011ebbd5dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0cde5032087011ebbd62ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:29e199bd084f11ebbd56ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c0489142088d11ebbd70ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e7a0711208c211ebbd8cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:beb3132e08d411ebbd97ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:88c1666c085711ebbd5aac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5b008f3a08d111ebbd95ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a3bacbed084911ebbd55ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0f9370bc08ae11ebbd83ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5f2bce30088111ebbd6dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1968020408b511ebbd88ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1fa46e26084911ebbd55ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:50f1350208af11ebbd83ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f1ff478c089011ebbd72ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:bf9d9ad008a611ebbd7fac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5da37fee08d211ebbd95ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1c0a564f08c711ebbd91ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:5977fe10088f11ebbd72ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:cd80e22a08d711ebbd9aac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6b4f5bf008d611ebbd98ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3b3bb79a086f11ebbd62ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6edd70ff089011ebbd72ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d966c61208ab11ebbd82ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c6b4652c08c111ebbd8bac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7cb929ce08dc11ebbd9cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7ea99e4c08a211ebbd7aac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fd0803df084b11ebbd56ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8fe5e4a608be11ebbd8aac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fafcb35d089e11ebbd78ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b80145be08a211ebbd7bac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:dd87083508a511ebbd7dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6cca8e7908db11ebbd9cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:18a3dbaa08d411ebbd96ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3473b25e088411ebbd6dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c2085d70088111ebbd6dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2f3c0934087b11ebbd67ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:a87bbb8f089211ebbd73ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:cce18dc7086211ebbd5dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:2d76a8f408dd11ebbd9dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:1adcd9bc086911ebbd5eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e6906c0708cb11ebbd93ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:04c1f77208cb11ebbd92ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:79f576ae08ad11ebbd83ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f4e4e862089011ebbd72ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:583a6e45085c11ebbd5cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:65f06f70088411ebbd6dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:31700bce08b711ebbd88ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6abc594e087311ebbd66ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d7ddc436087311ebbd67ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:de673c48088811ebbd6eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:fac4cc6208a811ebbd7fac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:f3c5261d088711ebbd6eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:72cfea12086711ebbd5eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7d2098b508b611ebbd88ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:aca3bb3a08b511ebbd88ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d71f453b085811ebbd5bac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8a5a24e1089911ebbd77ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:9e2fc7ef08c711ebbd91ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:b0f5302e085611ebbd59ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0e9a333e08e611ebbda4ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:8afa12aa08b411ebbd88ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:acf22446087411ebbd67ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:24df39cb088011ebbd6cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:05a2dec4088811ebbd6eac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:84d526bd088711ebbd6dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0b3c394e08c311ebbd8dac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:46bec9f308c111ebbd8bac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:eadb2cac085711ebbd5aac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:4ebd4dc608c711ebbd91ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:c8edf21008d811ebbd9cac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:aeeb203a086b11ebbd60ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:33d4446c087511ebbd67ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7d03750a086a11ebbd5fac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0dcaa666089411ebbd75ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:18d4a1f8085611ebbd59ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:d5e6d5ba089011ebbd72ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:751b77b8087711ebbd67ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:e29a23e408bc11ebbd89ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:0bc0459808e311ebbda4ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:6399a1260bde11eba7f7acde48001122",
+    "question_type": "compositional"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:71fc348c08b811ebbd88ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:3749076808c011ebbd8aac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "sample_id": "2WikiMultiHopQA:20210407:dev:7227051908b311ebbd86ac1f6bf848b6",
+    "question_type": "bridge_comparison"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__17508_17335",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__81825_49084",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__58111_7298",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__632161_643449",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__245835_762148",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__852657_155922",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__668407_683671",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__56270_68396",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__87053_319330",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__385392_756039",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__51881_20590",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__16844_20510",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__29339_40482",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__661847_288421",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__611538_152907",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__589264_150107",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__82713_84616",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__818692_113442",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__427249_20057",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__35566_17873",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__32887_235620",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__64175_90973",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__123214_22402",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__763380_74735",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__700093_455653",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__23459_22946",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__85713_72187",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__506035_325512",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__72118_83769",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__203985_524737",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__124807_135019",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__131455_11960",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__21103_16335",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__13353_17738",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__686395_141338",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__486314_544665",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__216256_141338",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__16581_16525",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__159902_362941",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__286621_67370",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__59612_42352",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__545711_52835",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__84971_67668",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__455158_247871",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__411091_625230",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__61714_53995",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__40970_90367",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__450608_373421",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__37097_53663",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__391258_161450",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__496792_392646",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__766973_770570",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__208602_11402",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__780238_110949",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:2hop__21104_16335",
+    "question_type": "2hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__836699_15840_36014",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__829944_474097_84283",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__161507_160713_77246",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__90327_83076_319330",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__140514_2053_5289",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__103881_443779_52195",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__145427_106426_77199",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__79039_131926_90707",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__545624_2053_52946",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__49610_89752_75165",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__389761_567566_84283",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__46571_87694_64412",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__850160_15840_36002",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__135659_87694_124169",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__354480_834494_34053",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__818422_160545_34754",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__346812_15840_36002",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__818422_160545_34751",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__469478_15840_36014",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__639955_834494_34109",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__516535_834494_33939",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__848113_15840_36002",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__222979_40769_64047",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__38426_91850_685675",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__800948_40769_64047",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__791757_15840_36014",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop1__595371_40769_64047",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__565959_467331_162182",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__565959_223623_162182",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__91678_90098_10557",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__851134_326964_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__69814_76873_64554",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__569322_223623_162182",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__38326_92991_76291",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_7721_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_7707_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__90098_19639_10557",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_846_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_851134_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__90098_91678_10557",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__67618_30587_44003",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_734214_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__36497_89854_76291",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__36852_613770_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__89854_90327_76291",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__14253_76873_64554",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__57233_11282_56883",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__802066_223623_162182",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__792915_223623_162182",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__127483_125104_10557",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__14777_8533_9331",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__125104_90098_10557",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__90327_87184_76291",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__20335_8533_9331",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_265410_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__326964_263934_7713",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:3hop2__19639_90098_10557",
+    "question_type": "3hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__696484_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__711307_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__726152_153080_159767_81096",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__88342_49853_128008_48717",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__88342_75218_128008_67954",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__813171_153080_159767_81096",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__40316_497223_15840_36002",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__310029_153080_33897_81096",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__629520_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__88342_49853_128008_46748",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__726391_153080_33952_34053",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__570103_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__228808_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__726391_153080_159767_81096",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__836115_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__749363_49925_13759_736921",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__88342_75218_128008_80487",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__72247_497223_15840_36002",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__39871_314549_131976_44528",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop1__752321_153080_159767_81096",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_21034",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_21074",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_21057",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_20988",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_20985",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_21057",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_18966",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_86452",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_21062",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_126088",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_21074",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_86452",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_21062",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_18966",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_126088",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_426860_88460_20988",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop2__161602_474028_88460_21034",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__426860_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__312119_132409_223216_35031",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__270458_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__519729_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__312119_132409_146285_35031",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__668721_132409_371500_35031",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__746868_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__160230_470287_128875_72134",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__839787_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__474028_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__754156_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__405277_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__507819_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__439878_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__257340_88460_30152_20999",
+    "question_type": "4hop"
+  },
+  {
+    "dataset": "MuSiQue",
+    "release": "v1.0",
+    "split": "dev",
+    "sample_id": "MuSiQue:v1.0:dev:4hop3__373866_5189_276146_86687",
+    "question_type": "4hop"
+  }
+]

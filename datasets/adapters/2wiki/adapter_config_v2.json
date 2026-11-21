@@ -1,0 +1,36 @@
+{
+  "config_version": "2.0.0",
+  "dataset": {
+    "name": "2WikiMultiHopQA",
+    "release": "20210407",
+    "split": "dev",
+    "expected_input_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+    "expected_aliases_sha256": "f08ffcb6c2cefca9bdbe86b4248d6ad7a7743762d3f7264c14ff0bae85726fb6"
+  },
+  "versions": {
+    "schema": "2.0",
+    "adapter": "2.0.0",
+    "claim_relation_rules": "1.0.0",
+    "documents_rules": "2.0.0",
+    "relation_templates": "1.0.0"
+  },
+  "question_types": [
+    "compositional",
+    "comparison",
+    "inference",
+    "bridge_comparison"
+  ],
+  "confidence_review_threshold": 0.9,
+  "selection_seed": 20260813,
+  "output_format": "jsonl",
+  "candidate_order": [
+    "likely_direct_support_first",
+    "qid_complete_first",
+    "no_repair_warning_first",
+    "higher_structural_confidence_first",
+    "bridge_comparison_complete_evidences_id_first",
+    "place_of_death_last",
+    "stable_hash_tiebreak"
+  ]
+}
+

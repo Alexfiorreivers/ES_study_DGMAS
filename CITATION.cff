@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and identify the exact archived release used."
+title: "Are Claims Still Grounded? Evaluating Evidence Traceability in Multi-Agent Communication"
+type: software
+authors:
+  - family-names: Li
+    given-names: Rongrong
+  - family-names: Zheng
+    given-names: Jiecai
+repository-code: "https://github.com/Alexfiorreivers/ES_study_DGMAS"
+abstract: "Code, experimental records, human audit evidence and evaluation outputs for an exploratory study of source degradation in document-grounded multi-agent communication."
+
+# This software citation describes original code; non-software scope is in LICENSE-DATA.md.
+license: Apache-2.0

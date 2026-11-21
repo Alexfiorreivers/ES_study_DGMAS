@@ -1,0 +1,12 @@
+﻿cell_id,question_n,observation_n,replicate_indices,node_scope_n,edge_scope_n,multi_node_union_observation_n,source_csv_line
+2wiki|DeepSeek/deepseek-flash|A1|m3-A1@1.0.4|chain,40,80,"[1, 2]",1000,400,80,2
+2wiki|DeepSeek/deepseek-flash|A2|m3-A2@1.0.4|chain,40,80,"[1, 2]",1000,400,80,3
+2wiki|DeepSeek/deepseek-flash|B0|m3-B0@1.0.4|chain,40,80,"[1, 2]",200,0,0,4
+2wiki|DeepSeek/deepseek-flash|B1|m3-B1@1.0.4|chain,40,80,"[1, 2]",600,0,80,5
+2wiki|DeepSeek/deepseek-flash|M|m3-M@1.0.1c-r2|chain,40,80,"[1, 2]",1000,400,80,6
+2wiki|DeepSeek/deepseek-flash|M|m3-M@1.0.4|chain,40,80,"[1, 2]",1000,400,80,7
+2wiki|Qwen/Qwen3-8B|M|m3-M@1.0.1|chain,40,40,[1],500,200,40,8
+2wiki|Qwen/Qwen3-8B|M|m3-M@1.0.1|star_bidirectional,40,40,[1],700,400,40,9
+musique|DeepSeek/deepseek-flash|B0|m3-B0@1.0.4|chain,20,40,"[1, 2]",122,0,0,10
+musique|DeepSeek/deepseek-flash|B1|m3-B1@1.0.4|chain,20,40,"[1, 2]",366,0,40,11
+musique|DeepSeek/deepseek-flash|M|m3-M@1.0.4|chain,20,40,"[1, 2]",610,244,40,12
